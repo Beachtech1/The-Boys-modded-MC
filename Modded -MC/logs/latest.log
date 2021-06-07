@@ -1,0 +1,1739 @@
+[23:04:19] [main/INFO]: ModLauncher running: args [--username, BeachTech, --version, forge-36.1.0, --gameDir, C:\Users\Beachtech\curseforge\minecraft\Instances\Slightly Vanilla Flavoured (1), --assetsDir, C:\Users\Beachtech\curseforge\minecraft\Install\assets, --assetIndex, 1.16, --uuid, f490e516d8854da180564fc75e76459c, --accessToken, ????????, --userType, mojang, --versionType, release, --width, 1024, --height, 768, --launchTarget, fmlclient, --fml.forgeVersion, 36.1.0, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210115.111550]
+[23:04:19] [main/INFO]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_51 by Oracle Corporation
+[23:04:19] [main/WARN]: LEGACY JDK DETECTED, SECURED JAR HANDLING DISABLED
+[23:04:20] [main/INFO]: Added Lets Encrypt root certificates as additional trust
+[23:04:20] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/Beachtech/curseforge/minecraft/Install/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=CLIENT
+[23:04:23] [main/INFO]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 1:0 token recognition error at: '~'
+[23:04:24] [main/ERROR]: Mixin config antiqueatlas.mixins.json does not specify "minVersion" property
+[23:04:24] [main/INFO]: Launching target 'fmlclient' with arguments [--version, forge-36.1.0, --gameDir, C:\Users\Beachtech\curseforge\minecraft\Instances\Slightly Vanilla Flavoured (1), --assetsDir, C:\Users\Beachtech\curseforge\minecraft\Install\assets, --uuid, f490e516d8854da180564fc75e76459c, --username, BeachTech, --assetIndex, 1.16, --accessToken, ????????, --userType, mojang, --versionType, release, --width, 1024, --height, 768]
+[23:04:24] [main/WARN]: Reference map 'brazier-forge-refmap.json' for brazier-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[23:04:26] [main/INFO]: Patching LootTableManager#apply
+[23:04:30] [pool-3-thread-1/INFO]: Using Java 8 class definer
+[23:04:37] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23:04:38] [Render thread/INFO]: Setting user: BeachTech
+[23:04:38] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[23:04:38] [Render thread/WARN]: Cryptography is restricted in this Java installation
+[23:04:38] [Render thread/WARN]: Please complain to Mojang for shipping a 5 year old Java version
+[23:04:38] [Render thread/INFO]: Cryptography restriction removed successfully
+[23:04:39] [Render thread/INFO]: Patching DataPackRegistries#<init>
+[23:04:39] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23:04:39] [Render thread/INFO]: Environment: PROD
+[23:04:39] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23:04:39] [Render thread/INFO]: Environment: PROD
+[23:04:39] [Render thread/INFO]: Potentially Dangerous alternative prefix `citadel` for name `debug`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:39] [Render thread/INFO]: Potentially Dangerous alternative prefix `citadel` for name `citadel_book`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:39] [Render thread/INFO]: Potentially Dangerous alternative prefix `walljump` for name `walljump`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:39] [Render thread/INFO]: Potentially Dangerous alternative prefix `walljump` for name `doublejump`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:39] [Render thread/INFO]: Potentially Dangerous alternative prefix `walljump` for name `speedboost`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:39] [modloading-worker-3/INFO]: Initializing strawgolem
+[23:04:39] [modloading-worker-1/INFO]: Infernal Expansion: Blocks Registered!
+[23:04:40] [modloading-worker-1/INFO]: Infernal Expansion: Items Registered!
+[23:04:40] [modloading-worker-1/INFO]: Infernal Expansion: Entity Types Registered!
+[23:04:40] [modloading-worker-1/INFO]: Infernal Expansion: Painting Types Registered!
+[23:04:40] [modloading-worker-1/INFO]: Infernal Expansion: Tile Entity Types Registered!
+[23:04:40] [modloading-worker-2/INFO]: Vanilla is real good, but chocolate is better, let's be honest. :)
+[23:04:40] [modloading-worker-5/INFO]: Patching DataPackRegistries#<init>
+[23:04:40] [modloading-worker-1/INFO]: Patching LootTableManager#apply
+[23:04:40] [modloading-worker-5/WARN]: Configuration file C:\Users\Beachtech\curseforge\minecraft\Instances\Slightly Vanilla Flavoured (1)\config\torchslabmod-server.toml is not correct. Correcting
+[23:04:40] [modloading-worker-5/WARN]: Incorrect key torchslabmodconfig was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23:04:40] [modloading-worker-5/WARN]: Incorrect key torchslabmodconfig.LanternLowerBlockCheck was corrected from null to its default, true. 
+[23:04:40] [modloading-worker-5/WARN]: Incorrect key torchslabmodconfig.TorchUpperBlockCheck was corrected from null to its default, true. 
+[23:04:40] [modloading-worker-5/WARN]: Incorrect key torchslabmodconfig.interactiveCheckList was corrected from null to its default, [minecraft:crafting_table, minecraft:furnace, minecraft:loom, minecraft:barrel, minecraft:smoker, minecraft:blast_furnace, minecraft:cartography_table, minecraft:fletching_table, minecraft:smithing_table, minecraft:jigsaw, minecraft:structure_block, minecraft:iron_door, minecraft:oak_door, minecraft:dark_oak_door, minecraft:spruce_door, minecraft:birch_door, minecraft:jungle_door, minecraft:acacia_door, minecraft:jukebox, minecraft:note_block, minecraft:shulker_box, minecraft:white_shulker_box, minecraft:orange_shulker_box, minecraft:magenta_shulker_box, minecraft:light_blue_shulker_box, minecraft:yellow_shulker_box, minecraft:lime_shulker_box, minecraft:pink_shulker_box, minecraft:gray_shulker_box, minecraft:light_gray_shulker_box, minecraft:cyan_shulker_box, minecraft:purple_shulker_box, minecraft:blue_shulker_box, minecraft:brown_shulker_box, minecraft:green_shulker_box, minecraft:red_shulker_box, minecraft:black_shulker_box, minecraft:beacon]. 
+[23:04:40] [modloading-worker-1/INFO]: Patching ModelBakery#<init>
+[23:04:42] [modloading-worker-3/INFO]: Detected new forge version, registering events reflectively.
+[23:04:42] [modloading-worker-4/INFO]: Forge mod loading, version 36.1.0, for MC 1.16.5 with MCP 20210115.111550
+[23:04:42] [modloading-worker-4/INFO]: MinecraftForge v36.1.0 Initialized
+[23:04:42] [modloading-worker-4/ERROR]: Blame 1.9.2 initialized
+[23:04:43] [modloading-worker-7/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Main.initialize()
+[23:04:43] [modloading-worker-7/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Reflecting GuiContainer...
+[23:04:43] [modloading-worker-7/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Detected obfuscation: FORGE.
+[23:04:43] [modloading-worker-7/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Success.
+[23:04:43] [modloading-worker-7/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Initialized.
+[23:04:43] [modloading-worker-2/INFO]: tower structure registered
+[23:04:43] [modloading-worker-2/INFO]: ice_tower structure registered
+[23:04:43] [modloading-worker-2/INFO]: jungle_tower structure registered
+[23:04:43] [modloading-worker-2/INFO]: derelict_tower structure registered
+[23:04:43] [modloading-worker-2/INFO]: derelict_grass_tower structure registered
+[23:04:43] [modloading-worker-2/INFO]: ocean_tower structure registered
+[23:04:43] [modloading-worker-2/INFO]: ocean_warm_tower structure registered
+[23:04:43] [modloading-worker-1/INFO]: Setting up a new Charm-based module 'charmonium'
+[23:04:43] [modloading-worker-1/INFO]: Subscribed 'charmonium' to Forge event bus
+[23:04:43] [modloading-worker-4/INFO]: Loaded 0 vertical slab support classes
+[23:04:43] [modloading-worker-4/INFO]: Loaded 2 horizontal slab support classes
+[23:04:43] [modloading-worker-1/INFO]: Setting up client modules for 'charmonium'
+[23:04:43] [modloading-worker-1/INFO]: Subscribed client 'charmonium' to Forge event bus
+[23:04:43] [modloading-worker-0/INFO]: Setting up a new Charm-based module 'charm'
+[23:04:43] [modloading-worker-0/INFO]: Subscribed 'charm' to Forge event bus
+[23:04:43] [modloading-worker-4/INFO]: Loaded 0 container support classes
+[23:04:44] [modloading-worker-0/INFO]: Loaded Quark compatibility class
+[23:04:44] [modloading-worker-0/INFO]: Setting up client modules for 'charm'
+[23:04:44] [modloading-worker-0/INFO]: Subscribed client 'charm' to Forge event bus
+[23:04:44] [modloading-worker-3/INFO]: Optifine not detected.
+[23:04:48] [Render thread/WARN]: Registry Item: The object debug has been registered twice for the same name citadel:debug.
+[23:04:48] [Render thread/WARN]: Registry Item: The object citadel_book has been registered twice for the same name citadel:citadel_book.
+[23:04:48] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `iron_horse_armor`, expected `cofh_core`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:48] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `golden_horse_armor`, expected `cofh_core`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:48] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `diamond_horse_armor`, expected `cofh_core`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:48] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `leather_horse_armor`, expected `cofh_core`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:48] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `shield`, expected `cofh_core`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:48] [Render thread/INFO]: Registered 11 GlobalLootModifierSerializer entries in 0.26ms.
+[23:04:48] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `protection`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:48] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `blast_protection`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:48] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `feather_falling`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:48] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `fire_protection`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:48] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `projectile_protection`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:48] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `fire_aspect`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:48] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `frost_walker`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:48] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `knockback`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:48] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `looting`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:48] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `thorns`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:48] [Render thread/INFO]: Potentially Dangerous alternative prefix `minecraft` for name `mending`, expected `ensorcellation`. This could be a intended override, but in most cases indicates a broken mod.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for strawgolem:strawgolem, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:grizzly_bear, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:roadrunner, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:bone_serpent, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:bone_serpent_part, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:gazelle, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:crocodile, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:fly, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:hummingbird, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: defineId called for: class net.minecraft.entity.passive.DolphinEntity from class com.github.alexthe666.alexsmobs.entity.EntityOrca
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:orca, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:sunbird, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:gorilla, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:crimson_mosquito, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:rattlesnake, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:endergrade, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:hammerhead_shark, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:lobster, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:komodo_dragon, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:capuchin_monkey, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:centipede_head, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:centipede_body, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:centipede_tail, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:warped_toad, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:moose, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:mimicube, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:raccoon, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:blobfish, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:seal, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:cockroach, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:shoebill, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:elephant, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:soul_vulture, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:snow_leopard, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:spectre, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:crow, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:alligator_snapping_turtle, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:mungus, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:mantis_shrimp, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:guster, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:warped_mosco, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:straddler, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:stradpole, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:emu, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:platypus, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:dropbear, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:tasmanian_devil, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for alexsmobs:kangaroo, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for conjurer_illager:conjurer, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for artifacts:mimic, use EntityAttributeCreationEvent instead.
+[23:04:49] [Render thread/INFO]: Registered 22 ingredient serializers.
+[23:04:49] [Render thread/INFO]: Registered 5 IRecipeSerializer entries in 0.09ms.
+[23:04:49] [Render thread/INFO]: [com.paleimitations.schoolsofmagic.common.registries.Registry:registerSounds:55]: Registered SoundEvents
+[23:04:50] [Render thread/INFO]: onRegisterStructures start
+[23:04:50] [Render thread/INFO]: register start
+[23:04:50] [Render thread/INFO]: register end
+[23:04:50] [Render thread/INFO]: onRegisterStructures end
+[23:04:50] [Render thread/INFO]: Checking for biome dictionary registry methods in other mods.
+[23:04:50] [Render thread/INFO]: Loading Resource Pack openloader/resources/SVF-Textures.
+[23:04:50] [Render thread/INFO]: Loading Resource Pack openloader/resources/SVF-Tips.
+[23:04:50] [Render thread/INFO]: Loading Resource Pack openloader/resources/SVF-Translations.
+[23:04:50] [Render thread/INFO]: Loading Resource Pack openloader/resources/SVF-UI.
+[23:04:50] [Render thread/WARN]: Removed resource pack openloader/data/SVF-Loot from options because it doesn't seem to exist anymore
+[23:04:50] [Render thread/WARN]: Removed resource pack openloader/data/SVF-Recipes from options because it doesn't seem to exist anymore
+[23:04:50] [Render thread/INFO]: loaded in item colorizer
+[23:04:50] [Render thread/INFO]: Patching BlockModelShapes#getModelLocation
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:ocean
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:plains
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:desert
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:swamp
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:river
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:frozen_ocean
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:frozen_river
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:snowy_tundra
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:beach
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:desert_hills
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:wooded_hills
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:mountain_edge
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:deep_ocean
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:dark_forest
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:wooded_mountains
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:small_end_islands
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:end_midlands
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:end_highlands
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:end_barrens
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:warm_ocean
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:lukewarm_ocean
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:cold_ocean
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:deep_warm_ocean
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:deep_lukewarm_ocean
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:deep_cold_ocean
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:gravel_beach
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:tropic_beach
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:alps_foothills
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:redwood_forest_edge
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:volcanic_plains
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:orchard
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:bayou_mangrove
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:alps
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:bamboo_blossom_grove
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:bayou
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:burnt_forest
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:cherry_blossom_grove
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:coniferous_forest
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:coniferous_lakes
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:dead_forest
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:dead_swamp
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:deep_bayou
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:dryland
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:dry_boneyard
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:fir_clearing
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:flower_meadow
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:fungal_field
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:fungal_jungle
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:golden_prairie
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:grove
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:grove_clearing
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:grove_lakes
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:highland
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:highland_crag
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:highland_moor
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:jade_cliffs
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:jade_grassland
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:lavender_field
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:lavender_forest
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:lush_desert
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:lush_savanna
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:meadow
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:meadow_forest
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:mystic_grove
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:mystic_plains
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:ominous_woods
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:ominous_mire
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:origin_valley
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:overgrown_fungal_jungle
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:prairie
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:rainbow_hills
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:rainforest
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:rainforest_cliffs
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:rainforest_floodplain
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:redwood_forest
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:redwood_hills
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:scrubland
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:seasonal_forest
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:seasonal_orchard
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:seasonal_pumpkin_patch
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:shrubland
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:shrubland_hills
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:silkglade
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:silkglade_nest
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:snowy_coniferous_forest
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:snowy_maple_forest
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:snowy_fir_clearing
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:tropic_plains
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:tropics
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:tundra
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:tundra_basin
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:tundra_bog
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:volcano
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:wasteland
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:wetland
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:wetland_marsh
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:wooded_scrubland
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:wooded_wasteland
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:crystalline_chasm
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:undergrowth
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:visceral_heap
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:the_void
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome biomesoplenty:withered_abyss
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:desert_lakes
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:gravelly_mountains
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:taiga_mountains
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:swamp_hills
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome theabyss:eot_biome_2
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome theabyss:forgottenmountains
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome theabyss:abyss_phantom_biome
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome theabyss:waywardsea
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome theabyss:slime_forest_biome
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome theabyss:theabyssbiome
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome theabyss:eot_biome
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome theabyss:aybssmountain
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome theabyss:the_abyss_plains_biome
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome theabyss:mud_plains
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome theabyss:bossuselessbiome
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome theabyss:the_abyss_jungle
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome environmental:marsh
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:modified_jungle
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome environmental:mushroom_marsh
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome environmental:blossom_woods
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome environmental:blossom_hills
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome environmental:blossom_highlands
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:dark_forest_hills
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome environmental:blossom_valleys
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:modified_gravelly_mountains
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:modified_wooded_badlands_plateau
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:modified_badlands_plateau
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:bamboo_jungle
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome minecraft:bamboo_jungle_hills
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome bayou_blues:bayou
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome bayou_blues:bayou_hills
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome endergetic:poise_forest
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome abundance:lavender_fields
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome abundance:lavender_forest
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome abundance:nemophila_fields
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome atmospheric:rainforest
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome atmospheric:rainforest_mountains
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome atmospheric:rainforest_plateau
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome atmospheric:sparse_rainforest_plateau
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome atmospheric:rainforest_basin
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome atmospheric:sparse_rainforest_basin
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome atmospheric:dunes
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome atmospheric:dunes_hills
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome atmospheric:flourishing_dunes
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome atmospheric:rocky_dunes
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome atmospheric:rocky_dunes_hills
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome atmospheric:petrified_dunes
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome autumnity:maple_forest
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome autumnity:maple_forest_hills
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome autumnity:pumpkin_fields
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome autumnity:yellow_spotted_forest
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome autumnity:orange_spotted_dark_forest
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome autumnity:red_spotted_taiga
+[23:04:51] [Render thread/INFO]: Auto-registered standard texture set for biome oddwatermobs:deep_ocean_dunes
+[23:04:51] [Render thread/INFO]: Narrator library for x64 successfully loaded
+[23:04:51] [Render thread/INFO]: Reloading ResourceManager: Default, Mod Resources, Farcr's Texture Overrides - 1.7.zip, Authentic Shadows_1.16.2-1.16.4.zip, SVF-UI, SVF-Tips, SVF-Textures, SVF-Translations, quark-emote-pack
+[23:04:52] [modloading-worker-7/WARN]: Configuration file C:\Users\Beachtech\curseforge\minecraft\Instances\Slightly Vanilla Flavoured (1)\config\carryon-client.toml is not correct. Correcting
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key settings.facePlayer was corrected from null to its default, false. 
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key settings.renderArms was corrected from null to its default, true. 
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key modeloverrides was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key modeloverrides.overrides was corrected from null to its default, [minecraft:hopper->(block)minecraft:hopper, minecraft:comparator->(block)minecraft:comparator, minecraft:repeater->(block)minecraft:repeater, minecraft:cauldron->(block)minecraft:cauldron, minecraft:brewing_stand->(item)minecraft:brewing_stand, minecraft:flower_pot->(block)minecraft:flower_pot, minecraft:sugar_cane->(block)minecraft:sugar_cane, minecraft:redstone_wire->(item)minecraft:redstone, animania:block_nest->(block)animania:block_nest, animania:cheese_mold;0->(block)animania:cheese_mold;0, animania:cheese_mold;1->(block)animania:cheese_mold;1, animania:cheese_mold;2->(block)animania:cheese_mold;2, animania:cheese_mold;3->(block)animania:cheese_mold;3, animania:cheese_mold;4->(block)animania:cheese_mold;4, animania:cheese_mold;5->(block)animania:cheese_mold;5, animania:cheese_mold;6->(block)animania:cheese_mold;6, animania:cheese_mold;7->(block)animania:cheese_mold;7, animania:cheese_mold;8->(block)animania:cheese_mold;8, animania:cheese_mold;9->(block)animania:cheese_mold;9, animania:cheese_mold;10->(block)animania:cheese_mold;10]. 
+[23:04:52] [modloading-worker-7/INFO]: [tschipp.carryon.common.handler.ListHandler:initConfigLists:282]: []
+[23:04:52] [modloading-worker-7/WARN]: Configuration file C:\Users\Beachtech\curseforge\minecraft\Instances\Slightly Vanilla Flavoured (1)\config\naturescompass-client.toml is not correct. Correcting
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key Client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key Client.displayWithChatOpen was corrected from null to its default, true. 
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key Client.fixBiomeNames was corrected from null to its default, true. 
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key Client.overlayLineOffset was corrected from null to its default, 1. 
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key Client.overlaySide was corrected from null to its default, LEFT. 
+[23:04:52] [modloading-worker-7/WARN]: Configuration file C:\Users\Beachtech\curseforge\minecraft\Instances\Slightly Vanilla Flavoured (1)\config\doubleslabs-client.toml is not correct. Correcting
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key Client Only Settings was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key Client Only Settings.lazyVerticalSlabModels was corrected from null to its default, [#doubleslabs:plank_slabs]. 
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key Client Only Settings.slabCullBlacklist was corrected from null to its default, [#minecraft:campfires]. 
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key Client Only Settings.useDoubleSlabModelBlacklist was corrected from null to its default, []. 
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key Player Settings (synced with servers) was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key Player Settings (synced with servers).verticalSlabPlacementMethod was corrected from null to its default, DYNAMIC. 
+[23:04:52] [Worker-Main2/ERROR]: Unable to read tip of svf:chestboat from svf:tips/chestboat.json.
+com.google.gson.JsonSyntaxException: Expected a com.google.gson.JsonObject but was com.google.gson.JsonPrimitive
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:913) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:825) ~[gson-2.8.0.jar:?]
+	at net.darkhax.tips.data.tip.TipReloadListener.prepare(TipReloadListener.java:58) [?:4.0.2]
+	at net.darkhax.tips.data.tip.TipReloadListener.func_212854_a_(TipReloadListener.java:26) [?:4.0.2]
+	at net.minecraft.client.resources.ReloadListener.func_215270_b(SourceFile:11) [?:?]
+	at net.minecraft.client.resources.ReloadListener$$Lambda$12086/651931323.get(Unknown Source) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1582) [?:1.8.0_51]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1574) [?:1.8.0_51]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_51]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_51]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1689) [?:1.8.0_51]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_51]
+[23:04:52] [Worker-Main2/ERROR]: Unable to read tip of svf:wall-jump from svf:tips/wall-jump.json.
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 3 column 73 path $.tip.text
+	at com.google.gson.Gson.fromJson(Gson.java:902) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:825) ~[gson-2.8.0.jar:?]
+	at net.darkhax.tips.data.tip.TipReloadListener.prepare(TipReloadListener.java:58) [?:4.0.2]
+	at net.darkhax.tips.data.tip.TipReloadListener.func_212854_a_(TipReloadListener.java:26) [?:4.0.2]
+	at net.minecraft.client.resources.ReloadListener.func_215270_b(SourceFile:11) [?:?]
+	at net.minecraft.client.resources.ReloadListener$$Lambda$12086/651931323.get(Unknown Source) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1582) [?:1.8.0_51]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1574) [?:1.8.0_51]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_51]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_51]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1689) [?:1.8.0_51]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_51]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at line 3 column 73 path $.tip.text
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:491) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:738) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[gson-2.8.0.jar:?]
+	... 11 more
+[23:04:52] [modloading-worker-7/INFO]: Config set
+[23:04:52] [modloading-worker-7/WARN]: Configuration file C:\Users\Beachtech\curseforge\minecraft\Instances\Slightly Vanilla Flavoured (1)\config\allurement-common.toml is not correct. Correcting
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key enchantments.alleviating.Healing factor was corrected from 0.25 to its default, 0.25. 
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key enchantments.vengeance.Damage factor was corrected from 0.025 to its default, 0.025. 
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key tweaks.soul_speed.Damage factor was corrected from 1.5 to its default, 1.5. 
+[23:04:52] [modloading-worker-7/WARN]: Configuration file C:\Users\Beachtech\curseforge\minecraft\Instances\Slightly Vanilla Flavoured (1)\config\naturescompass-common.toml is not correct. Correcting
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key General was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key General.allowTeleport was corrected from null to its default, true. 
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key General.radiusModifier was corrected from null to its default, 2500. 
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key General.sampleSpaceModifier was corrected from null to its default, 16. 
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key General.biomeBlacklist was corrected from null to its default, []. 
+[23:04:52] [modloading-worker-7/WARN]: Incorrect key General.maxSamples was corrected from null to its default, 50000. 
+[23:04:52] [modloading-worker-7/INFO]: Config set
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Chain Linkage
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Chains Connect Blocks
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Chute
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Color Slime
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Dispensers Place Blocks
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Ender Watcher
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Endermites Form Shulkers
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Feeding Trough
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Gravisand
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Iron Rod
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Metal Buttons
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Obsidian Plate
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Pistons Move Tile Entities
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Redstone Circuit
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Weather Sensor
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Bamboo Mat
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Burn Vines
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Cobblestone Bricks
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Compressed Blocks
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Duskbound Blocks
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Framed Glass
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Gold Bars
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Grate
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Hedges
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Iron Plates
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Item Frames
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Leaf Carpet
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Lit Lamp
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Midori
+[23:04:53] [modloading-worker-7/INFO]: Loading Module More Brick Types
+[23:04:53] [modloading-worker-7/INFO]: Loading Module More Potted Plants
+[23:04:53] [modloading-worker-7/INFO]: Loading Module More Stone Variants
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Nether Brick Fence Gate
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Paper Decor
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Quilted Wool
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Rope
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Shallow Dirt
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Shingles
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Soul Sandstone
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Stained Planks
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Stools
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Sturdy Stone
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Tallow And Candles
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Thatch
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Tie Leads To Fences
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Turf
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Variant Bookshelves
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Variant Chests
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Variant Ladders
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Vertical Planks
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Vertical Slabs
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Wooden Posts
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Chests In Boats
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Easy Transfering
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Hotbar Changer
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Inventory Sorting
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Item Sharing
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Right Click Armor
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Shulker Box Right Click
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Ancient Tomes
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Bottled Cloud
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Camera
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Color Runes
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Pathfinder Maps
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Pickarang
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Seed Pouch
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Slime In A Bucket
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Trowel
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Skull Pikes
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Armed Armor Stands
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Automatic Recipe Unlock
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Axe Leaf Harvesting
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Campfires Boost Elytra
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Compasses Work Everywhere
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Dirt To Path
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Double Door Opening
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Dragon Scales
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Emotes
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Enhanced Ladders
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Glass Shard
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Hoe Harvesting
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Improved Sleeping
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Infinity Bucket
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Lava Bucket As Trash
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Lock Rotation
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Note Block Mob Sounds
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Pat The Dogs
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Poison Potato Usage
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Reacharound Placing
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Replace Scaffolding
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Sign Editing
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Simple Harvest
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Snow Golem Player Heads
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Springy Slime
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Utility Recipes
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Villagers Follow Emeralds
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Big Dungeon
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Big Stone Clusters
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Biotite
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Blossom Trees
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Cave Roots
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Chorus Vegetation
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Crevices
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Fairy Rings
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Mega Caves
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Monster Box
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Nether Obsidian Spikes
+[23:04:53] [modloading-worker-7/INFO]: Loading Module New Stone Types
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Realistic World Gen
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Speleothems
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Spiral Spires
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Underground Clay
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Brimstone Underground Biome
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Cave Crystal Underground Biome
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Elder Prismarine Underground Biome
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Glowshroom Underground Biome
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Lush Underground Biome
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Overgrown Underground Biome
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Permafrost Underground Biome
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Sandstone Underground Biome
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Slime Underground Biome
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Spider Nest Underground Biome
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Crabs
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Forgotten
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Foxhound
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Frogs
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Stonelings
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Toretoise
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Wraith
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Auto Walk Keybind
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Back Button Keybind
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Chest Searching
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Greener Grass
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Improved Mount Hud
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Improved Tooltips
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Usage Ticker
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Variant Animal Textures
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Backpack
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Crate
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Magnets
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Matrix Enchanting
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Pipes
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Totem Of Holding
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Adjustable Chat
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Custom Underground Biome
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Game Nerfs
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Narrator Readout
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Overlay Shader
+[23:04:53] [modloading-worker-7/INFO]: Loading Module Shiba
+[23:04:53] [Worker-Main5/WARN]: File alexsmobs:sounds/elephant_idle_3.ogg does not exist, cannot add it to event alexsmobs:elephant_idle
+[23:04:53] [Worker-Main5/WARN]: File infernalexp:sounds/cerobeetle_ambient.ogg does not exist, cannot add it to event infernalexp:cerobeetleambient
+[23:04:53] [Worker-Main5/WARN]: File infernalexp:sounds/cerobeetle_hurt.ogg does not exist, cannot add it to event infernalexp:cerobeetlehurt
+[23:04:53] [Worker-Main5/WARN]: File infernalexp:sounds/cerobeetle_death.ogg does not exist, cannot add it to event infernalexp:cerobeetledeath
+[23:04:53] [Worker-Main5/WARN]: File infernalexp:sounds/cerobeetle_roar.ogg does not exist, cannot add it to event infernalexp:cerobeetleroar
+[23:04:53] [Worker-Main5/INFO]: Strawgolem common setup
+[23:04:56] [Worker-Main3/INFO]: Registering 3 command argument types.
+[23:04:56] [Worker-Main3/INFO]: Registering 13 loot conditions.
+[23:04:56] [Worker-Main4/WARN]: Called deprecated GlobalEntityTypeAttributes#put for brazier:crazed, use EntityAttributeCreationEvent instead.
+[23:04:56] [Forge Version Check/INFO]: Global Forge version check system disabled, no further processing.
+[23:04:57] [Worker-Main4/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for quark:rope
+  New behavior: vazkii.quark.content.building.module.RopeModule$BehaviourRope
+  Old behavior: vazkii.quark.content.building.module.RopeModule$BehaviourRope
+  Registration done at: 
+    vazkii.quark.base.module.ModuleLoader$$Lambda$12266/1002197547.accept(Unknown Source)
+    java.util.HashMap$Values.forEach(HashMap.java:972)
+    vazkii.quark.base.module.ModuleLoader.dispatch(ModuleLoader.java:117)
+
+[23:04:57] [Worker-Main4/WARN]: Called deprecated GlobalEntityTypeAttributes#put for quark:toretoise, use EntityAttributeCreationEvent instead.
+[23:04:57] [Worker-Main4/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:chain
+  New behavior: vazkii.quark.content.automation.module.ChainLinkageModule$LinkCartsBehaviour
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    vazkii.quark.base.module.ModuleLoader$$Lambda$13099/491784263.accept(Unknown Source)
+    java.util.HashMap$Values.forEach(HashMap.java:972)
+    vazkii.quark.base.module.ModuleLoader.dispatch(ModuleLoader.java:117)
+
+[23:04:57] [Worker-Main4/WARN]: Called deprecated GlobalEntityTypeAttributes#put for quark:wraith, use EntityAttributeCreationEvent instead.
+[23:04:57] [Worker-Main4/WARN]: Called deprecated GlobalEntityTypeAttributes#put for quark:wrapped, use EntityAttributeCreationEvent instead.
+[23:04:57] [Worker-Main4/WARN]: Called deprecated GlobalEntityTypeAttributes#put for quark:stoneling, use EntityAttributeCreationEvent instead.
+[23:04:57] [Worker-Main4/WARN]: Called deprecated GlobalEntityTypeAttributes#put for quark:leash_knot_fake, use EntityAttributeCreationEvent instead.
+[23:04:57] [Worker-Main4/WARN]: Called deprecated GlobalEntityTypeAttributes#put for quark:forgotten, use EntityAttributeCreationEvent instead.
+[23:04:57] [Worker-Main4/WARN]: Called deprecated GlobalEntityTypeAttributes#put for quark:frog, use EntityAttributeCreationEvent instead.
+[23:04:57] [Worker-Main4/WARN]: Called deprecated GlobalEntityTypeAttributes#put for quark:foxhound, use EntityAttributeCreationEvent instead.
+[23:04:57] [Worker-Main4/WARN]: Called deprecated GlobalEntityTypeAttributes#put for quark:shiba, use EntityAttributeCreationEvent instead.
+[23:04:57] [Worker-Main4/WARN]: Called deprecated GlobalEntityTypeAttributes#put for quark:crab, use EntityAttributeCreationEvent instead.
+[23:04:57] [Worker-Main4/WARN]: Called deprecated GlobalEntityTypeAttributes#put for charm:coral_squid, use EntityAttributeCreationEvent instead.
+[23:04:57] [Worker-Main4/WARN]: Called deprecated GlobalEntityTypeAttributes#put for charm:moobloom, use EntityAttributeCreationEvent instead.
+[23:04:57] [Worker-Main4/INFO]: Initialising module Acquisition
+[23:04:57] [Worker-Main4/INFO]: Initialising module AerialAffinity
+[23:04:57] [Worker-Main4/INFO]: Initialising module AnvilImprovements
+[23:04:57] [Worker-Main4/INFO]: Initialising module ArmorInvisibility
+[23:04:57] [Worker-Main4/INFO]: Initialising module Atlas
+[23:04:57] [Worker-Main4/INFO]: Initialising module AutoRestock
+[23:04:57] [Worker-Main4/INFO]: Initialising module BatBuckets
+[23:04:57] [Worker-Main4/INFO]: Initialising module BeaconsHealMobs
+[23:04:57] [Worker-Main4/INFO]: Initialising module BlockOfEnderPearls
+[23:04:57] [Worker-Main4/INFO]: Initialising module BlockOfGunpowder
+[23:04:57] [Worker-Main4/INFO]: Initialising module BlockOfSugar
+[23:04:57] [Worker-Main4/INFO]: Initialising module Bookcases
+[23:04:57] [Worker-Main4/INFO]: Initialising module CampfiresNoDamage
+[23:04:57] [Worker-Main4/INFO]: Initialising module CaveSpidersDropCobwebs
+[23:04:57] [Worker-Main4/INFO]: Initialising module ChickensDropFeathers
+[23:04:57] [Worker-Main4/INFO]: Initialising module CoralSeaLanterns
+[23:04:57] [Worker-Main4/INFO]: Initialising module CoralSquids
+[23:04:57] [Worker-Main4/INFO]: Initialising module Core
+[23:04:57] [Worker-Main4/INFO]: Initialising module DecreaseRepairCost
+[23:04:57] [Worker-Main4/INFO]: Initialising module EndermitePowder
+[23:04:57] [Worker-Main4/INFO]: Initialising module EntitySpawners
+[23:04:57] [Worker-Main4/INFO]: Initialising module ExtendNetherite
+[23:04:57] [Worker-Main4/INFO]: Initialising module ExtraRecipes
+[23:04:57] [Worker-Main4/INFO]: Initialising module ExtractEnchantments
+[23:04:57] [Worker-Main4/INFO]: Initialising module FeatherFallingCrops
+[23:04:57] [Worker-Main4/INFO]: Initialising module Glowballs
+[23:04:57] [Worker-Main4/INFO]: Initialising module GoldChains
+[23:04:57] [Worker-Main4/INFO]: Initialising module GoldLanterns
+[23:04:57] [Worker-Main4/INFO]: Initialising module HuskImprovements
+[23:04:57] [Worker-Main4/INFO]: Initialising module Kilns
+[23:04:57] [Worker-Main4/INFO]: Initialising module Lumberjacks
+[23:04:57] [Worker-Main4/INFO]: Initialising module MineshaftImprovements
+[23:04:57] [Worker-Main4/INFO]: Initialising module MorePortalFrames
+[23:04:57] [Worker-Main4/INFO]: Initialising module MoreVillageBiomes
+[23:04:57] [Worker-Main4/INFO]: Initialising module MusicImprovements
+[23:04:57] [Worker-Main4/INFO]: Initialising module NetheriteNuggets
+[23:04:57] [Worker-Main4/INFO]: Initialising module ParrotsStayOnShoulder
+[23:04:57] [Worker-Main4/INFO]: Initialising module PathToDirt
+[23:04:57] [Worker-Main4/INFO]: Initialising module PlayerState
+[23:04:57] [Worker-Main4/INFO]: Initialising module PortableCrafting
+[23:04:57] [Worker-Main4/INFO]: Initialising module PortableEnderChest
+[23:04:57] [Worker-Main4/INFO]: Initialising module Quark
+[23:04:57] [Worker-Main4/INFO]: Initialising module RaidHorns
+[23:04:57] [Worker-Main4/INFO]: Initialising module RedstoneLanterns
+[23:04:57] [Worker-Main4/INFO]: Initialising module RedstoneSand
+[23:04:57] [Worker-Main4/INFO]: Initialising module RefinedObsidian
+[23:04:57] [Worker-Main4/INFO]: Initialising module RemoveNitwits
+[23:04:57] [Worker-Main4/INFO]: Initialising module RemovePotionGlint
+[23:04:57] [Worker-Main4/INFO]: Initialising module SmoothGlowstone
+[23:04:57] [Worker-Main4/INFO]: Initialising module SnowStorms
+[23:04:57] [Worker-Main4/INFO]: Initialising module StackableEnchantedBooks
+[23:04:57] [Worker-Main4/INFO]: Initialising module StackablePotions
+[23:04:57] [Worker-Main4/INFO]: Initialising module StackableStews
+[23:04:57] [Worker-Main4/INFO]: Initialising module StrayImprovements
+[23:04:57] [Worker-Main4/INFO]: Initialising module TamedAnimalsNoDamage
+[23:04:57] [Worker-Main4/INFO]: Initialising module Tinted
+[23:04:57] [Worker-Main4/INFO]: Initialising module UseTotemFromInventory
+[23:04:57] [Worker-Main4/INFO]: Initialising module VariantBarrels
+[23:04:57] [Worker-Main4/INFO]: Initialising module VariantMobTextures
+[23:04:57] [Worker-Main4/INFO]: Initialising module WanderingTraderImprovements
+[23:04:57] [Worker-Main4/INFO]: Initialising module WitchesDropLuck
+[23:04:57] [Worker-Main4/INFO]: Initialising module Woodcutters
+[23:04:57] [Worker-Main4/INFO]: Initialising module Sounds
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:wooden_pickaxe
+  New behavior: vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior.registerBehaviour(CuttingBoardDispenseBehavior.java:34)
+    vectorwing.farmersdelight.setup.CommonEventHandler.registerDispenserBehaviors(CommonEventHandler.java:86)
+    vectorwing.farmersdelight.setup.CommonEventHandler.lambda$init$0(CommonEventHandler.java:68)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:wooden_axe
+  New behavior: vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior.registerBehaviour(CuttingBoardDispenseBehavior.java:34)
+    vectorwing.farmersdelight.setup.CommonEventHandler.registerDispenserBehaviors(CommonEventHandler.java:87)
+    vectorwing.farmersdelight.setup.CommonEventHandler.lambda$init$0(CommonEventHandler.java:68)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:wooden_shovel
+  New behavior: vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior.registerBehaviour(CuttingBoardDispenseBehavior.java:34)
+    vectorwing.farmersdelight.setup.CommonEventHandler.registerDispenserBehaviors(CommonEventHandler.java:88)
+    vectorwing.farmersdelight.setup.CommonEventHandler.lambda$init$0(CommonEventHandler.java:68)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:stone_pickaxe
+  New behavior: vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior.registerBehaviour(CuttingBoardDispenseBehavior.java:34)
+    vectorwing.farmersdelight.setup.CommonEventHandler.registerDispenserBehaviors(CommonEventHandler.java:89)
+    vectorwing.farmersdelight.setup.CommonEventHandler.lambda$init$0(CommonEventHandler.java:68)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:stone_axe
+  New behavior: vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior.registerBehaviour(CuttingBoardDispenseBehavior.java:34)
+    vectorwing.farmersdelight.setup.CommonEventHandler.registerDispenserBehaviors(CommonEventHandler.java:90)
+    vectorwing.farmersdelight.setup.CommonEventHandler.lambda$init$0(CommonEventHandler.java:68)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:stone_shovel
+  New behavior: vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior.registerBehaviour(CuttingBoardDispenseBehavior.java:34)
+    vectorwing.farmersdelight.setup.CommonEventHandler.registerDispenserBehaviors(CommonEventHandler.java:91)
+    vectorwing.farmersdelight.setup.CommonEventHandler.lambda$init$0(CommonEventHandler.java:68)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:iron_pickaxe
+  New behavior: vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior.registerBehaviour(CuttingBoardDispenseBehavior.java:34)
+    vectorwing.farmersdelight.setup.CommonEventHandler.registerDispenserBehaviors(CommonEventHandler.java:92)
+    vectorwing.farmersdelight.setup.CommonEventHandler.lambda$init$0(CommonEventHandler.java:68)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:iron_axe
+  New behavior: vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior.registerBehaviour(CuttingBoardDispenseBehavior.java:34)
+    vectorwing.farmersdelight.setup.CommonEventHandler.registerDispenserBehaviors(CommonEventHandler.java:93)
+    vectorwing.farmersdelight.setup.CommonEventHandler.lambda$init$0(CommonEventHandler.java:68)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:iron_shovel
+  New behavior: vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior.registerBehaviour(CuttingBoardDispenseBehavior.java:34)
+    vectorwing.farmersdelight.setup.CommonEventHandler.registerDispenserBehaviors(CommonEventHandler.java:94)
+    vectorwing.farmersdelight.setup.CommonEventHandler.lambda$init$0(CommonEventHandler.java:68)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:diamond_pickaxe
+  New behavior: vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior.registerBehaviour(CuttingBoardDispenseBehavior.java:34)
+    vectorwing.farmersdelight.setup.CommonEventHandler.registerDispenserBehaviors(CommonEventHandler.java:95)
+    vectorwing.farmersdelight.setup.CommonEventHandler.lambda$init$0(CommonEventHandler.java:68)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:diamond_axe
+  New behavior: vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior.registerBehaviour(CuttingBoardDispenseBehavior.java:34)
+    vectorwing.farmersdelight.setup.CommonEventHandler.registerDispenserBehaviors(CommonEventHandler.java:96)
+    vectorwing.farmersdelight.setup.CommonEventHandler.lambda$init$0(CommonEventHandler.java:68)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:diamond_shovel
+  New behavior: vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior.registerBehaviour(CuttingBoardDispenseBehavior.java:34)
+    vectorwing.farmersdelight.setup.CommonEventHandler.registerDispenserBehaviors(CommonEventHandler.java:97)
+    vectorwing.farmersdelight.setup.CommonEventHandler.lambda$init$0(CommonEventHandler.java:68)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:golden_pickaxe
+  New behavior: vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior.registerBehaviour(CuttingBoardDispenseBehavior.java:34)
+    vectorwing.farmersdelight.setup.CommonEventHandler.registerDispenserBehaviors(CommonEventHandler.java:98)
+    vectorwing.farmersdelight.setup.CommonEventHandler.lambda$init$0(CommonEventHandler.java:68)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:golden_axe
+  New behavior: vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior.registerBehaviour(CuttingBoardDispenseBehavior.java:34)
+    vectorwing.farmersdelight.setup.CommonEventHandler.registerDispenserBehaviors(CommonEventHandler.java:99)
+    vectorwing.farmersdelight.setup.CommonEventHandler.lambda$init$0(CommonEventHandler.java:68)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:golden_shovel
+  New behavior: vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior.registerBehaviour(CuttingBoardDispenseBehavior.java:34)
+    vectorwing.farmersdelight.setup.CommonEventHandler.registerDispenserBehaviors(CommonEventHandler.java:100)
+    vectorwing.farmersdelight.setup.CommonEventHandler.lambda$init$0(CommonEventHandler.java:68)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:netherite_pickaxe
+  New behavior: vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior.registerBehaviour(CuttingBoardDispenseBehavior.java:34)
+    vectorwing.farmersdelight.setup.CommonEventHandler.registerDispenserBehaviors(CommonEventHandler.java:101)
+    vectorwing.farmersdelight.setup.CommonEventHandler.lambda$init$0(CommonEventHandler.java:68)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:netherite_axe
+  New behavior: vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior.registerBehaviour(CuttingBoardDispenseBehavior.java:34)
+    vectorwing.farmersdelight.setup.CommonEventHandler.registerDispenserBehaviors(CommonEventHandler.java:102)
+    vectorwing.farmersdelight.setup.CommonEventHandler.lambda$init$0(CommonEventHandler.java:68)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:netherite_shovel
+  New behavior: vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior.registerBehaviour(CuttingBoardDispenseBehavior.java:34)
+    vectorwing.farmersdelight.setup.CommonEventHandler.registerDispenserBehaviors(CommonEventHandler.java:103)
+    vectorwing.farmersdelight.setup.CommonEventHandler.lambda$init$0(CommonEventHandler.java:68)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:shears
+  New behavior: vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior
+  Old behavior: net.minecraft.dispenser.BeehiveDispenseBehavior
+  Registration done at: 
+    vectorwing.farmersdelight.tile.dispenser.CuttingBoardDispenseBehavior.registerBehaviour(CuttingBoardDispenseBehavior.java:34)
+    vectorwing.farmersdelight.setup.CommonEventHandler.registerDispenserBehaviors(CommonEventHandler.java:104)
+    vectorwing.farmersdelight.setup.CommonEventHandler.lambda$init$0(CommonEventHandler.java:68)
+
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for cnb:little_grebe, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for cnb:cindershell, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for cnb:lizard, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for cnb:lilytad, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: defineId called for: class com.cgessinger.creaturesandbeasts.common.entites.FriendlySporelingEntity from class com.cgessinger.creaturesandbeasts.common.entites.AbstractSporelingEntity
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for cnb:friendly_sporeling, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for cnb:hostile_sporeling, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for cnb:neutral_sporeling, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for cnb:yeti, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyssspider, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abysscreeper, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abysscorruptedcow, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyssguard, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:netherscorpion, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:endspider, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:soulguard, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:night_hunter, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_forest_zombie, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:eyelie_entity, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:phantom_abyss_entity, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:soul_lizard, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_elder, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:the_lurker, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:soul_lizard_jungle, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:the_abyss_wolf, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:the_roka, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:the_abyss_dire_wolf, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:fire_fly, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_tag, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_spider_lv_l_2, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_forest_zombie_lv_l_3, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:soul_guard_lv_l_4, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_guard_lv_l_4, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:nether_scorpion_lv_l_4, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_guard_lv_l_1, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_forest_zombie_lv_l_4, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_spider_lv_l_3, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:phantom_abyss_entity_lv_l_3, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:slime_spider, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:the_roka_end_boss, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:light_fish, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:jungle_light_fish, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:jungle_light_fish_green, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_guard_protect, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:abyss_raptor, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:eot_light_fish, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:eot_light_fish_2, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:eot_light_fish_3, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:eot_light_fish_4, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:ice_skeleton, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:ice_knight, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:seeker, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:meramus, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:silvia, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:meramus_end_fight, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:silvia_end_fight, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:markus, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:the_abyss_golem, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:stephen, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:lorenzo, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:eot_phantom, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:the_roka_end_ally, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:nosaj_boss, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:carlos, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:jackson, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:jackson_end_fight, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:stephen_end_fight, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:lorenzo_end_fight, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:markus_end_fight, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:carlos_end_fight, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:nosaj_end_fight, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:soldier_end_fight, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:ice_knight_end_game, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for theabyss:spectral_entity, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:bluejay, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:booby, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:budgerigar, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:cardinal, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:cassowary, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:cockatoo, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:crane, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:duck, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:flamingo, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:gouldianfinch, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:gull, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:heron, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:hummingbird, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:kingfisher, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:kiwi, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:kookaburra, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:lyrebird, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:macaw, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:magpie, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:ostrich, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:owl, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:peafowl, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:pelican, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:penguin, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:pigeon, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:roadrunner, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:robin, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:swan, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:toucan, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for exoticbirds:woodpecker, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for environmental:slabfish, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for environmental:deer, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for environmental:duck, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for environmental:yak, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for environmental:koi, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for buzzier_bees:grizzly_bear, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for buzzier_bees:black_bear, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for buzzier_bees:bumblebee, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for buzzier_bees:moobloom, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for kobolds:kobold, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for kobolds:kobold_zombie, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for kobolds:kobold_drowned, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for kobolds:kobold_warrior, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for kobolds:kobold_james, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for kobolds:kobold_enchanter, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for kobolds:kobold_classic, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for kobolds:kobold_child, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/ERROR]: Adding duplicate value 'net.minecraft.loot.LootConditionType@3c97f5e9' to registry
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for neapolitan:plantain_spider, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for neapolitan:chimpanzee, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:nautilus, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:pike, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:lionfish, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:perch, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:thrasher, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:great_thrasher, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:flare, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:ululu, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:goose, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:glow_squid, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:box_jellyfish, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:cassiopea_jellyfish, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:immortal_jellyfish, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:water_bucket
+  New behavior: com.minecraftabnormals.abnormals_core.core.util.DataUtil$$Lambda$13357/1306542828
+  Old behavior: net.minecraft.dispenser.IDispenseItemBehavior$16
+  Registration done at: 
+    com.minecraftabnormals.abnormals_core.core.util.DataUtil.registerAlternativeDispenseBehavior(DataUtil.java:133)
+    com.minecraftabnormals.upgrade_aquatic.core.other.UADispenseBehaviorRegistry.registerDispenseBehaviors(UADispenseBehaviorRegistry.java:120)
+    com.minecraftabnormals.upgrade_aquatic.core.UpgradeAquatic.lambda$setupCommon$4(UpgradeAquatic.java:71)
+
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for endergetic:booflo, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for endergetic:booflo_adolescent, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for endergetic:booflo_baby, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for endergetic:puff_bug, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for endergetic:poise_cluster, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for savageandravage:creepie, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for savageandravage:griefer, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for savageandravage:skeleton_villager, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for savageandravage:iceologer, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for savageandravage:executioner, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:white_banner
+  New behavior: com.minecraftabnormals.abnormals_core.core.util.DataUtil$$Lambda$13357/1306542828
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    com.minecraftabnormals.abnormals_core.core.util.DataUtil.registerAlternativeDispenseBehavior(DataUtil.java:133)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat.lambda$registerDispenserBehaviors$2(SRCompat.java:68)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat$$Lambda$13390/1523468967.accept(Unknown Source)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:orange_banner
+  New behavior: com.minecraftabnormals.abnormals_core.core.util.DataUtil$$Lambda$13357/1306542828
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    com.minecraftabnormals.abnormals_core.core.util.DataUtil.registerAlternativeDispenseBehavior(DataUtil.java:133)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat.lambda$registerDispenserBehaviors$2(SRCompat.java:68)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat$$Lambda$13390/1523468967.accept(Unknown Source)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:magenta_banner
+  New behavior: com.minecraftabnormals.abnormals_core.core.util.DataUtil$$Lambda$13357/1306542828
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    com.minecraftabnormals.abnormals_core.core.util.DataUtil.registerAlternativeDispenseBehavior(DataUtil.java:133)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat.lambda$registerDispenserBehaviors$2(SRCompat.java:68)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat$$Lambda$13390/1523468967.accept(Unknown Source)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:light_blue_banner
+  New behavior: com.minecraftabnormals.abnormals_core.core.util.DataUtil$$Lambda$13357/1306542828
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    com.minecraftabnormals.abnormals_core.core.util.DataUtil.registerAlternativeDispenseBehavior(DataUtil.java:133)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat.lambda$registerDispenserBehaviors$2(SRCompat.java:68)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat$$Lambda$13390/1523468967.accept(Unknown Source)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:yellow_banner
+  New behavior: com.minecraftabnormals.abnormals_core.core.util.DataUtil$$Lambda$13357/1306542828
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    com.minecraftabnormals.abnormals_core.core.util.DataUtil.registerAlternativeDispenseBehavior(DataUtil.java:133)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat.lambda$registerDispenserBehaviors$2(SRCompat.java:68)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat$$Lambda$13390/1523468967.accept(Unknown Source)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:lime_banner
+  New behavior: com.minecraftabnormals.abnormals_core.core.util.DataUtil$$Lambda$13357/1306542828
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    com.minecraftabnormals.abnormals_core.core.util.DataUtil.registerAlternativeDispenseBehavior(DataUtil.java:133)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat.lambda$registerDispenserBehaviors$2(SRCompat.java:68)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat$$Lambda$13390/1523468967.accept(Unknown Source)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:pink_banner
+  New behavior: com.minecraftabnormals.abnormals_core.core.util.DataUtil$$Lambda$13357/1306542828
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    com.minecraftabnormals.abnormals_core.core.util.DataUtil.registerAlternativeDispenseBehavior(DataUtil.java:133)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat.lambda$registerDispenserBehaviors$2(SRCompat.java:68)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat$$Lambda$13390/1523468967.accept(Unknown Source)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:gray_banner
+  New behavior: com.minecraftabnormals.abnormals_core.core.util.DataUtil$$Lambda$13357/1306542828
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    com.minecraftabnormals.abnormals_core.core.util.DataUtil.registerAlternativeDispenseBehavior(DataUtil.java:133)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat.lambda$registerDispenserBehaviors$2(SRCompat.java:68)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat$$Lambda$13390/1523468967.accept(Unknown Source)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:light_gray_banner
+  New behavior: com.minecraftabnormals.abnormals_core.core.util.DataUtil$$Lambda$13357/1306542828
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    com.minecraftabnormals.abnormals_core.core.util.DataUtil.registerAlternativeDispenseBehavior(DataUtil.java:133)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat.lambda$registerDispenserBehaviors$2(SRCompat.java:68)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat$$Lambda$13390/1523468967.accept(Unknown Source)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:cyan_banner
+  New behavior: com.minecraftabnormals.abnormals_core.core.util.DataUtil$$Lambda$13357/1306542828
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    com.minecraftabnormals.abnormals_core.core.util.DataUtil.registerAlternativeDispenseBehavior(DataUtil.java:133)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat.lambda$registerDispenserBehaviors$2(SRCompat.java:68)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat$$Lambda$13390/1523468967.accept(Unknown Source)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:purple_banner
+  New behavior: com.minecraftabnormals.abnormals_core.core.util.DataUtil$$Lambda$13357/1306542828
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    com.minecraftabnormals.abnormals_core.core.util.DataUtil.registerAlternativeDispenseBehavior(DataUtil.java:133)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat.lambda$registerDispenserBehaviors$2(SRCompat.java:68)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat$$Lambda$13390/1523468967.accept(Unknown Source)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:blue_banner
+  New behavior: com.minecraftabnormals.abnormals_core.core.util.DataUtil$$Lambda$13357/1306542828
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    com.minecraftabnormals.abnormals_core.core.util.DataUtil.registerAlternativeDispenseBehavior(DataUtil.java:133)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat.lambda$registerDispenserBehaviors$2(SRCompat.java:68)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat$$Lambda$13390/1523468967.accept(Unknown Source)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:brown_banner
+  New behavior: com.minecraftabnormals.abnormals_core.core.util.DataUtil$$Lambda$13357/1306542828
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    com.minecraftabnormals.abnormals_core.core.util.DataUtil.registerAlternativeDispenseBehavior(DataUtil.java:133)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat.lambda$registerDispenserBehaviors$2(SRCompat.java:68)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat$$Lambda$13390/1523468967.accept(Unknown Source)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:green_banner
+  New behavior: com.minecraftabnormals.abnormals_core.core.util.DataUtil$$Lambda$13357/1306542828
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    com.minecraftabnormals.abnormals_core.core.util.DataUtil.registerAlternativeDispenseBehavior(DataUtil.java:133)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat.lambda$registerDispenserBehaviors$2(SRCompat.java:68)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat$$Lambda$13390/1523468967.accept(Unknown Source)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:red_banner
+  New behavior: com.minecraftabnormals.abnormals_core.core.util.DataUtil$$Lambda$13357/1306542828
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    com.minecraftabnormals.abnormals_core.core.util.DataUtil.registerAlternativeDispenseBehavior(DataUtil.java:133)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat.lambda$registerDispenserBehaviors$2(SRCompat.java:68)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat$$Lambda$13390/1523468967.accept(Unknown Source)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:black_banner
+  New behavior: com.minecraftabnormals.abnormals_core.core.util.DataUtil$$Lambda$13357/1306542828
+  Old behavior: net.minecraft.dispenser.DefaultDispenseItemBehavior
+  Registration done at: 
+    com.minecraftabnormals.abnormals_core.core.util.DataUtil.registerAlternativeDispenseBehavior(DataUtil.java:133)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat.lambda$registerDispenserBehaviors$2(SRCompat.java:68)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat$$Lambda$13390/1523468967.accept(Unknown Source)
+
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:flint_and_steel
+  New behavior: com.minecraftabnormals.abnormals_core.core.util.DataUtil$$Lambda$13357/1306542828
+  Old behavior: net.minecraft.dispenser.IDispenseItemBehavior$18
+  Registration done at: 
+    com.minecraftabnormals.abnormals_core.core.util.DataUtil.registerAlternativeDispenseBehavior(DataUtil.java:133)
+    com.minecraftabnormals.savageandravage.core.other.SRCompat.registerDispenserBehaviors(SRCompat.java:69)
+    com.minecraftabnormals.savageandravage.core.SavageAndRavage.lambda$commonSetup$2(SavageAndRavage.java:61)
+
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for autumnity:snail, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for autumnity:turkey, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Condensed Dispenser message mode activated for quark.
+   Dispenser behavior registry replacement was detected.
+   Reason for the change:  This is part of their DispensersPlaceBlocksModule which has config options.
+   The kinds of items affected:  Detected Quark registry replacing the Dispenser behavior of all blocks.
+   Ignore this log entry unless item behaviors aren't working with Dispensers for some reason.
+
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for oddwatermobs:anglerfish, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for oddwatermobs:isopod, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for oddwatermobs:horseshoe_crab, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for oddwatermobs:coelacanth, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for oddwatermobs:baby_spider_crab, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for oddwatermobs:spider_crab, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for oddwatermobs:pink_ghost_shark, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for oddwatermobs:long_nosed_ghost_shark, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for oddwatermobs:ghost_shark, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for oddwatermobs:dark_ghost_shark, use EntityAttributeCreationEvent instead.
+[23:04:57] [Render thread/WARN]: Called deprecated GlobalEntityTypeAttributes#put for oddwatermobs:mudskipper, use EntityAttributeCreationEvent instead.
+[23:04:57] [Worker-Main5/INFO]: Strawgolem client setup
+[23:04:57] [Worker-Main5/INFO]: [com.paleimitations.schoolsofmagic.client.data.BookTextManager:func_195410_a:43]: Book Text reloaded
+[23:04:57] [Worker-Main5/INFO]: [com.paleimitations.schoolsofmagic.common.data.books.PageElementParagraphs:loadText:55]: loaded schoolsofmagic:lang/book/en_us_0/spell_blaze.txt
+[23:04:57] [Worker-Main5/INFO]: [com.paleimitations.schoolsofmagic.common.data.books.PageElementParagraphs:loadText:55]: loaded schoolsofmagic:lang/book/en_us_0/spell_zephyr.txt
+[23:04:57] [Worker-Main5/INFO]: [com.paleimitations.schoolsofmagic.common.data.books.PageElementParagraphs:loadText:55]: loaded schoolsofmagic:lang/book/en_us_0/spell_growth.txt
+[23:04:57] [Worker-Main5/INFO]: [com.paleimitations.schoolsofmagic.common.data.books.PageElementParagraphs:loadText:55]: loaded schoolsofmagic:lang/book/en_us_0/spell_snowball.txt
+[23:04:57] [Worker-Main5/INFO]: [com.paleimitations.schoolsofmagic.common.data.books.PageElementParagraphs:loadText:55]: loaded schoolsofmagic:lang/book/en_us_0/spell_shulker_bullet.txt
+[23:04:57] [Worker-Main5/INFO]: [com.paleimitations.schoolsofmagic.common.data.books.PageElementParagraphs:loadText:55]: loaded schoolsofmagic:lang/book/en_us_0/spell_translocation.txt
+[23:04:57] [Worker-Main5/INFO]: [com.paleimitations.schoolsofmagic.common.data.books.PageElementParagraphs:loadText:55]: loaded schoolsofmagic:lang/book/en_us_0/basic_arcana_title.txt
+[23:04:58] [Worker-Main5/INFO]: Initialising module SoundsClient
+[23:04:58] [Worker-Main5/INFO]: Initialising module AtlasClient
+[23:04:58] [Worker-Main5/INFO]: Initialising module BatBucketsClient
+[23:04:58] [Worker-Main5/INFO]: Initialising module BookcasesClient
+[23:04:58] [Worker-Main5/INFO]: Initialising module CoralSquidsClient
+[23:04:58] [Worker-Main5/INFO]: Initialising module CoreClient
+[23:04:58] [Worker-Main5/INFO]: Initialising module EndermitePowderClient
+[23:04:58] [Worker-Main5/INFO]: Initialising module EntitySpawnersClient
+[23:04:58] [Worker-Main5/INFO]: Initialising module ExtractEnchantmentsClient
+[23:04:58] [Worker-Main5/INFO]: Initialising module GlowballsClient
+[23:04:58] [Worker-Main5/INFO]: Initialising module GoldChainsClient
+[23:04:58] [Worker-Main5/INFO]: Initialising module GoldLanternsClient
+[23:04:58] [Worker-Main5/INFO]: Initialising module KilnsClient
+[23:04:58] [Worker-Main5/INFO]: Initialising module MusicImprovementsClient
+[23:04:58] [Worker-Main5/INFO]: Initialising module PlayerStateClient
+[23:04:58] [Worker-Main5/INFO]: Initialising module PortableCraftingClient
+[23:04:58] [Worker-Main5/INFO]: Initialising module PortableEnderChestClient
+[23:04:58] [Worker-Main5/INFO]: Initialising module RedstoneLanternsClient
+[23:04:58] [Worker-Main5/INFO]: Initialising module SnowStormsClient
+[23:04:58] [Worker-Main5/INFO]: Initialising module VariantMobTexturesClient
+[23:04:58] [Worker-Main5/INFO]: Initialising module WoodCuttersClient
+[23:04:58] [Worker-Main3/WARN]: Configuration file C:\Users\Beachtech\curseforge\minecraft\Instances\Slightly Vanilla Flavoured (1)\config\soundfilters-client.toml is not correct. Correcting
+[23:04:58] [Worker-Main3/WARN]: Incorrect key reverb.blockSpecificReverb was corrected from [] to its default, []. 
+[23:04:59] [Render thread/ERROR]: Adding duplicate value 'net.minecraft.loot.LootConditionType@3c97f5e9' to registry
+[23:04:59] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for champions:egg
+  New behavior: top.theillusivec4.champions.Champions$1
+  Old behavior: top.theillusivec4.champions.Champions$1
+  Registration done at: 
+    top.theillusivec4.champions.Champions.lambda$dispatch$0(Champions.java:133)
+    top.theillusivec4.champions.Champions$$Lambda$5668/302433153.run(Unknown Source)
+    java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1618)
+
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/abyssdimwater.json' missing model for variant: 'theabyss:abyssdimwater#level=11'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/abyssdimwater.json' missing model for variant: 'theabyss:abyssdimwater#level=9'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/abyssdimwater.json' missing model for variant: 'theabyss:abyssdimwater#level=10'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/abyssdimwater.json' missing model for variant: 'theabyss:abyssdimwater#level=13'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/abyssdimwater.json' missing model for variant: 'theabyss:abyssdimwater#level=12'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/abyssdimwater.json' missing model for variant: 'theabyss:abyssdimwater#level=15'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/abyssdimwater.json' missing model for variant: 'theabyss:abyssdimwater#level=14'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/abyssdimwater.json' missing model for variant: 'theabyss:abyssdimwater#level=2'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/abyssdimwater.json' missing model for variant: 'theabyss:abyssdimwater#level=1'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/abyssdimwater.json' missing model for variant: 'theabyss:abyssdimwater#level=4'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/abyssdimwater.json' missing model for variant: 'theabyss:abyssdimwater#level=3'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/abyssdimwater.json' missing model for variant: 'theabyss:abyssdimwater#level=6'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/abyssdimwater.json' missing model for variant: 'theabyss:abyssdimwater#level=5'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/abyssdimwater.json' missing model for variant: 'theabyss:abyssdimwater#level=8'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/abyssdimwater.json' missing model for variant: 'theabyss:abyssdimwater#level=7'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/abyssdimwater.json' missing model for variant: 'theabyss:abyssdimwater#level=0'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/abyssdimwater.json' in resourcepack: 'Mod Resources': Missing model, expected to find a string
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/dragonfluid.json' missing model for variant: 'theabyss:dragonfluid#level=2'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/dragonfluid.json' missing model for variant: 'theabyss:dragonfluid#level=1'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/dragonfluid.json' missing model for variant: 'theabyss:dragonfluid#level=4'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/dragonfluid.json' missing model for variant: 'theabyss:dragonfluid#level=3'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/dragonfluid.json' missing model for variant: 'theabyss:dragonfluid#level=6'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/dragonfluid.json' missing model for variant: 'theabyss:dragonfluid#level=5'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/dragonfluid.json' missing model for variant: 'theabyss:dragonfluid#level=8'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/dragonfluid.json' missing model for variant: 'theabyss:dragonfluid#level=7'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/dragonfluid.json' missing model for variant: 'theabyss:dragonfluid#level=0'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/dragonfluid.json' missing model for variant: 'theabyss:dragonfluid#level=12'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/dragonfluid.json' missing model for variant: 'theabyss:dragonfluid#level=9'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/dragonfluid.json' missing model for variant: 'theabyss:dragonfluid#level=13'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/dragonfluid.json' missing model for variant: 'theabyss:dragonfluid#level=10'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/dragonfluid.json' missing model for variant: 'theabyss:dragonfluid#level=11'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/dragonfluid.json' missing model for variant: 'theabyss:dragonfluid#level=14'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/dragonfluid.json' missing model for variant: 'theabyss:dragonfluid#level=15'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/dragonfluid.json' in resourcepack: 'Mod Resources': Missing model, expected to find a string
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/backtolive.json' missing model for variant: 'theabyss:backtolive#level=9'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/backtolive.json' missing model for variant: 'theabyss:backtolive#level=8'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/backtolive.json' missing model for variant: 'theabyss:backtolive#level=7'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/backtolive.json' missing model for variant: 'theabyss:backtolive#level=6'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/backtolive.json' missing model for variant: 'theabyss:backtolive#level=5'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/backtolive.json' missing model for variant: 'theabyss:backtolive#level=4'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/backtolive.json' missing model for variant: 'theabyss:backtolive#level=3'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/backtolive.json' missing model for variant: 'theabyss:backtolive#level=2'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/backtolive.json' missing model for variant: 'theabyss:backtolive#level=1'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/backtolive.json' missing model for variant: 'theabyss:backtolive#level=0'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/backtolive.json' missing model for variant: 'theabyss:backtolive#level=10'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/backtolive.json' missing model for variant: 'theabyss:backtolive#level=11'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/backtolive.json' missing model for variant: 'theabyss:backtolive#level=12'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/backtolive.json' missing model for variant: 'theabyss:backtolive#level=13'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/backtolive.json' missing model for variant: 'theabyss:backtolive#level=14'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/backtolive.json' missing model for variant: 'theabyss:backtolive#level=15'
+[23:05:01] [Worker-Main2/WARN]: Exception loading blockstate definition: 'theabyss:blockstates/backtolive.json' in resourcepack: 'Mod Resources': Missing model, expected to find a string
+[23:05:02] [Worker-Main2/WARN]: Exception loading blockstate definition: 'torchslabmod:blockstates/end_rod_slab.json' missing model for variant: 'torchslabmod:end_rod_slab#conditional=true,facing=east'
+[23:05:02] [Worker-Main2/WARN]: Exception loading blockstate definition: 'torchslabmod:blockstates/end_rod_slab.json' missing model for variant: 'torchslabmod:end_rod_slab#conditional=false,facing=west'
+[23:05:02] [Worker-Main2/WARN]: Exception loading blockstate definition: 'torchslabmod:blockstates/end_rod_slab.json' missing model for variant: 'torchslabmod:end_rod_slab#conditional=true,facing=north'
+[23:05:02] [Worker-Main2/WARN]: Exception loading blockstate definition: 'torchslabmod:blockstates/end_rod_slab.json' missing model for variant: 'torchslabmod:end_rod_slab#conditional=true,facing=south'
+[23:05:02] [Worker-Main2/WARN]: Exception loading blockstate definition: 'torchslabmod:blockstates/end_rod_slab.json' missing model for variant: 'torchslabmod:end_rod_slab#conditional=true,facing=west'
+[23:05:02] [Worker-Main2/WARN]: Exception loading blockstate definition: 'torchslabmod:blockstates/end_rod_slab.json' missing model for variant: 'torchslabmod:end_rod_slab#conditional=false,facing=east'
+[23:05:02] [Worker-Main2/WARN]: Exception loading blockstate definition: 'torchslabmod:blockstates/end_rod_slab.json' missing model for variant: 'torchslabmod:end_rod_slab#conditional=false,facing=south'
+[23:05:02] [Worker-Main2/WARN]: Exception loading blockstate definition: 'torchslabmod:blockstates/end_rod_slab.json' missing model for variant: 'torchslabmod:end_rod_slab#conditional=false,facing=north'
+[23:05:06] [Worker-Main2/WARN]: Unable to load model: 'minecraft:blood_gun_empty' referenced from: alexsmobs:blood_sprayer#inventory: java.io.FileNotFoundException: minecraft:models/blood_gun_empty.json
+[23:05:06] [Worker-Main2/INFO]: [com.paleimitations.schoolsofmagic.client.items.models.BookModel:<init>:68]: Basic Arcana Model run
+[23:05:09] [Worker-Main2/WARN]: Unable to resolve texture reference: #missing in schoolsofmagic:block/prismarine_podium
+[23:05:09] [Worker-Main2/WARN]: Unable to resolve texture reference: #missing in schoolsofmagic:block/granite_podium
+[23:05:09] [Worker-Main2/WARN]: Unable to resolve texture reference: #missing in schoolsofmagic:item/netherbrick_podium
+[23:05:09] [Worker-Main2/WARN]: Unable to resolve texture reference: #missing in endergetic:item/ender_torch
+[23:05:09] [Worker-Main2/WARN]: Unable to resolve texture reference: #missing in schoolsofmagic:block/netherbrick_podium
+[23:05:09] [Worker-Main2/WARN]: Unable to resolve texture reference: #missing in minecraft:item/soul_torch
+[23:05:09] [Worker-Main2/WARN]: Unable to resolve texture reference: #missing in alexsmobs:block/banana_peel
+[23:05:09] [Worker-Main2/WARN]: Unable to resolve texture reference: #missing in schoolsofmagic:item/granite_podium
+[23:05:09] [Worker-Main2/WARN]: Unable to resolve texture reference: #missing in schoolsofmagic:item/prismarine_podium
+[23:05:09] [Worker-Main2/WARN]: Unable to resolve texture reference: #missing in minecraft:item/torch
+[23:05:09] [Worker-Main2/WARN]: Unable to resolve texture reference: #missing in minecraft:item/redstone_torch
+[23:05:09] [Worker-Main8/ERROR]: Using missing texture, unable to load oddwatermobs:textures/blocks/.png : java.io.FileNotFoundException: oddwatermobs:textures/blocks/.png
+[23:05:09] [Worker-Main4/ERROR]: Using missing texture, unable to load theabyss:textures/blocks/._ark_oak_planks.png : java.io.FileNotFoundException: theabyss:textures/blocks/._ark_oak_planks.png
+[23:05:09] [Worker-Main7/ERROR]: Using missing texture, unable to load bedspreads:textures/entity/mca_chimpanzee.png : java.io.FileNotFoundException: bedspreads:textures/entity/mca_chimpanzee.png
+[23:05:09] [Worker-Main3/ERROR]: Using missing texture, unable to load bedspreads:textures/entity/mca_honeycomb.png : java.io.FileNotFoundException: bedspreads:textures/entity/mca_honeycomb.png
+[23:05:09] [Worker-Main3/ERROR]: Using missing texture, unable to load bedspreads:textures/entity/australia_1.png : java.io.FileNotFoundException: bedspreads:textures/entity/australia_1.png
+[23:05:09] [Worker-Main5/ERROR]: Using missing texture, unable to load bedspreads:textures/entity/australia_0.png : java.io.FileNotFoundException: bedspreads:textures/entity/australia_0.png
+[23:05:09] [Worker-Main7/ERROR]: Using missing texture, unable to load bedspreads:textures/entity/mca_maple_leaf.png : java.io.FileNotFoundException: bedspreads:textures/entity/mca_maple_leaf.png
+[23:05:10] [Worker-Main4/ERROR]: Using missing texture, unable to load oddwatermobs:textures/items/sinking.png : java.io.FileNotFoundException: oddwatermobs:textures/items/sinking.png
+[23:05:10] [Worker-Main5/ERROR]: Using missing texture, unable to load bedspreads:textures/entity/mca_swirl.png : java.io.FileNotFoundException: bedspreads:textures/entity/mca_swirl.png
+[23:05:10] [Worker-Main8/ERROR]: Using missing texture, unable to load bedspreads:textures/entity/bear.png : java.io.FileNotFoundException: bedspreads:textures/entity/bear.png
+[23:05:10] [Worker-Main2/WARN]: Texture brazier:block/brazier_runes with size 144x8 limits mip level from 4 to 3
+[23:05:11] [Render thread/INFO]: Read 106 tips.
+[23:05:12] [Render thread/INFO]: Loaded all shader programs.
+[23:05:12] [Render thread/ERROR]: Adding duplicate value 'net.minecraft.loot.LootConditionType@3c97f5e9' to registry
+[23:05:12] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for champions:egg
+  New behavior: top.theillusivec4.champions.Champions$1
+  Old behavior: top.theillusivec4.champions.Champions$1
+  Registration done at: 
+    top.theillusivec4.champions.Champions.lambda$dispatch$0(Champions.java:133)
+    top.theillusivec4.champions.Champions$$Lambda$5668/302433153.run(Unknown Source)
+    java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1618)
+
+[23:05:12] [Worker-Main3/INFO]: Got IMC []
+[23:05:12] [Render thread/ERROR]: Adding duplicate value 'net.minecraft.loot.LootConditionType@3c97f5e9' to registry
+[23:05:12] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for champions:egg
+  New behavior: top.theillusivec4.champions.Champions$1
+  Old behavior: top.theillusivec4.champions.Champions$1
+  Registration done at: 
+    top.theillusivec4.champions.Champions.lambda$dispatch$0(Champions.java:133)
+    top.theillusivec4.champions.Champions$$Lambda$5668/302433153.run(Unknown Source)
+    java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1618)
+
+[23:05:12] [Worker-Main8/WARN]: Called deprecated GlobalEntityTypeAttributes#put for infernalexp:voline, use EntityAttributeCreationEvent instead.
+[23:05:12] [Worker-Main3/INFO]: Attempting to register unregistered biomes to the biome dictionary. This can be disabled via config.
+[23:05:12] [Worker-Main8/WARN]: Called deprecated GlobalEntityTypeAttributes#put for infernalexp:shroomloin, use EntityAttributeCreationEvent instead.
+[23:05:12] [Worker-Main8/WARN]: Called deprecated GlobalEntityTypeAttributes#put for infernalexp:warpbeetle, use EntityAttributeCreationEvent instead.
+[23:05:12] [Worker-Main8/WARN]: Called deprecated GlobalEntityTypeAttributes#put for infernalexp:embody, use EntityAttributeCreationEvent instead.
+[23:05:12] [Worker-Main8/WARN]: Called deprecated GlobalEntityTypeAttributes#put for infernalexp:basalt_giant, use EntityAttributeCreationEvent instead.
+[23:05:12] [Worker-Main5/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for minecraft:water_bucket
+  New behavior: vazkii.quark.content.tweaks.module.InfinityBucketModule$1
+  Old behavior: com.minecraftabnormals.abnormals_core.core.util.DataUtil$$Lambda$13357/1306542828
+  Registration done at: 
+    vazkii.quark.base.module.ModuleLoader$$Lambda$14281/926624095.accept(Unknown Source)
+    java.util.HashMap$Values.forEach(HashMap.java:972)
+    vazkii.quark.base.module.ModuleLoader.dispatch(ModuleLoader.java:117)
+
+[23:05:12] [Worker-Main2/INFO]: Registered plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[23:05:12] [Worker-Main3/INFO]: Registered theabyss:mud_plains to structure_gel:[badlands, dry, hot, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered environmental:marsh to structure_gel:[warm, plains, humid, swamp, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered autumnity:orange_spotted_dark_forest to structure_gel:[spooky, rare, wooded, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered environmental:blossom_woods to structure_gel:[rare, wooded, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered atmospheric:rainforest_mountains to structure_gel:[mountain, warm, rare, humid, jungle, wooded, neutral_temp, large_wooded]
+[23:05:12] [Worker-Main3/INFO]: Registered atmospheric:sparse_rainforest_plateau to structure_gel:[warm, humid, jungle, wooded, neutral_temp, large_wooded]
+[23:05:12] [Worker-Main3/INFO]: Registered autumnity:red_spotted_taiga to structure_gel:[spruce_forest, cold, coniferous_forest, wooded, large_wooded]
+[23:05:12] [Worker-Main3/INFO]: Registered theabyss:aybssmountain to structure_gel:[mountain, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered theabyss:forgottenmountains to structure_gel:[dirty, snowy]
+[23:05:12] [Worker-Main3/INFO]: Registered abundance:lavender_fields to structure_gel:[flowery, plains, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered atmospheric:rainforest_plateau to structure_gel:[warm, humid, jungle, wooded, neutral_temp, large_wooded]
+[23:05:12] [Worker-Main3/INFO]: Registered environmental:blossom_hills to structure_gel:[rare, wooded, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered theabyss:eot_biome_2 to structure_gel:[neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered theabyss:bossuselessbiome to structure_gel:[neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered environmental:mushroom_marsh to structure_gel:[fungal, warm, plains, rare, humid, swamp, mushroom, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered abundance:lavender_forest to structure_gel:[flowery, plains, wooded, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered atmospheric:sparse_rainforest_basin to structure_gel:[warm, humid, jungle, wooded, neutral_temp, large_wooded]
+[23:05:12] [Worker-Main3/INFO]: Registered environmental:blossom_highlands to structure_gel:[mountain, rare, wooded, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered theabyss:the_abyss_jungle to structure_gel:[warm, humid, jungle, neutral_temp, large_wooded]
+[23:05:12] [Worker-Main3/INFO]: Registered theabyss:eot_biome to structure_gel:[neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered oddwatermobs:deep_ocean_dunes to structure_gel:[ocean, sandy, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered environmental:blossom_valleys to structure_gel:[plains, rare, wooded, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered bayou_blues:bayou_hills to structure_gel:[warm, rare, humid, swamp, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered abundance:nemophila_fields to structure_gel:[plains, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered atmospheric:rainforest to structure_gel:[warm, humid, jungle, wooded, neutral_temp, large_wooded]
+[23:05:12] [Worker-Main3/INFO]: Registered autumnity:maple_forest to structure_gel:[wooded, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered atmospheric:rainforest_basin to structure_gel:[warm, humid, jungle, wooded, neutral_temp, large_wooded]
+[23:05:12] [Worker-Main3/INFO]: Registered autumnity:yellow_spotted_forest to structure_gel:[wooded, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered theabyss:the_abyss_plains_biome to structure_gel:[plains, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered atmospheric:rocky_dunes to structure_gel:[sandy, dead, dry, desert, hot]
+[23:05:12] [Worker-Main3/INFO]: Registered autumnity:pumpkin_fields to structure_gel:[plains, rare, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered theabyss:waywardsea to structure_gel:[dirty, humid, snowy]
+[23:05:12] [Worker-Main3/INFO]: Registered atmospheric:flourishing_dunes to structure_gel:[rare, sandy, dry, desert, hot]
+[23:05:12] [Worker-Main3/INFO]: Registered atmospheric:rocky_dunes_hills to structure_gel:[sandy, dead, dry, desert, hot]
+[23:05:12] [Worker-Main3/INFO]: Registered atmospheric:petrified_dunes to structure_gel:[rare, sandy, dead, dry, desert, hot]
+[23:05:12] [Worker-Main3/INFO]: Registered theabyss:slime_forest_biome to structure_gel:[warm, humid, swamp, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered atmospheric:dunes to structure_gel:[sandy, dry, desert, hot]
+[23:05:12] [Worker-Main3/INFO]: Registered atmospheric:dunes_hills to structure_gel:[sandy, dry, desert, hot]
+[23:05:12] [Worker-Main3/INFO]: Registered autumnity:maple_forest_hills to structure_gel:[rare, wooded, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered theabyss:theabyssbiome to structure_gel:[plains, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered bayou_blues:bayou to structure_gel:[warm, rare, humid, swamp, neutral_temp]
+[23:05:12] [Worker-Main3/INFO]: Registered theabyss:abyss_phantom_biome to structure_gel:[sandy, dry, desert, hot, neutral_temp]
+[23:05:12] [Render thread/ERROR]: Adding duplicate value 'net.minecraft.loot.LootConditionType@3c97f5e9' to registry
+[23:05:12] [Render thread/ERROR]: 
+****************** Blame Extra Info Report 1.9.2 ******************
+   Ignore this unless item behavior aren't working with Dispensers. If Dispenser behavior
+   is broken, check out "Potentially Dangerous alternative prefix `minecraft`" lines for
+   the item too as registry replacements might break dispenser behaviors as well.
+  Dispenser Behavior overridden for champions:egg
+  New behavior: top.theillusivec4.champions.Champions$1
+  Old behavior: top.theillusivec4.champions.Champions$1
+  Registration done at: 
+    top.theillusivec4.champions.Champions.lambda$dispatch$0(Champions.java:133)
+    top.theillusivec4.champions.Champions$$Lambda$5668/302433153.run(Unknown Source)
+    java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1618)
+
+[23:05:20] [Render thread/INFO]: OpenAL initialized.
+[23:05:20] [Render thread/INFO]: Sound engine started
+[23:05:20] [Render thread/INFO]: Created: 512x256x0 environmental:textures/atlas/slabfish.png-atlas
+[23:05:20] [Render thread/INFO]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[23:05:20] [Render thread/INFO]: Endimation Data Manager has loaded 0 Endimations
+[23:05:20] [Render thread/INFO]: Created: 256x128x0 upgrade_aquatic:textures/atlas/glow_squid.png-atlas
+[23:05:20] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[23:05:20] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
+[23:05:20] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[23:05:20] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[23:05:20] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/chest.png-atlas
+[23:05:20] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[23:05:20] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[23:05:21] [Render thread/INFO]: [com.paleimitations.schoolsofmagic.client.items.models.BookModel:bake:91]: Basic Arcana cover used
+[23:05:25] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[23:05:25] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[23:05:25] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[23:05:25] [Render thread/INFO]: Sound Filters successfully loaded the sound channels
+[23:05:29] [Render thread/INFO]: Connecting to 51.222.121.86, 25581
+[23:05:33] [Render thread/INFO]: Injecting existing registry data into this CLIENT instance
+[23:05:38] [Netty Client IO #1/INFO]: [tschipp.carryon.common.handler.ListHandler:initConfigLists:282]: []
+[23:05:38] [Netty Client IO #1/INFO]: Connected to a modded server.
+[23:05:38] [Netty Client IO #1/ERROR]: Error adding element: Base value out of range: 256 [-10-128]
+[23:05:38] [Netty Client IO #1/INFO]: tower structure feature registered
+[23:05:38] [Netty Client IO #1/INFO]: ice_tower structure feature registered
+[23:05:38] [Netty Client IO #1/INFO]: jungle_tower structure feature registered
+[23:05:38] [Netty Client IO #1/INFO]: derelict_tower structure feature registered
+[23:05:38] [Netty Client IO #1/INFO]: derelict_grass_tower structure feature registered
+[23:05:38] [Netty Client IO #1/INFO]: ocean_tower structure feature registered
+[23:05:38] [Netty Client IO #1/INFO]: ocean_warm_tower structure feature registered
+[23:05:40] [Render thread/INFO]: addDimensionalSpacing start
+[23:05:40] [Render thread/INFO]: addDimensionalSpacing end
+[23:05:40] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23:05:47] [Render thread/INFO]: [tschipp.carryon.common.handler.ListHandler:initConfigLists:282]: [create:non_movable, minecraft:soul_fire_base_blocks, neapolitan:vanilla_plantable_on, forge:glass_panes/magenta, neapolitan:unaffected_by_mint, forge:ores/biotite, farmersdelight:unaffected_by_rich_soil, quark:planks_vertical_slab, quark:stools, forge:storage_blocks/netherite, forge:glass_panes/white, biomesoplenty:hellbark_logs, forge:gravel, forge:glass_panes/cyan, biomesoplenty:magic_logs, forge:glass_panes/light_gray, minecraft:wool, forge:glass/colorless, charm:crates, alexsmobs:roadrunner_spawns, forge:glass_panes/light_blue, minecraft:beehives, minecraft:ice, quark:candles, forge:ores/zinc, forge:ores/netherite_scrap, minecraft:dragon_immune, minecraft:crops, alexsmobs:alligator_snapping_turtle_spawns, farmersdelight:heat_sources, quark:quilted_wools, forge:stained_glass, forge:glass/pink, forge:chests, forge:storage_blocks/emerald, forge:ores/redstone, minecraft:warped_stems, forge:glass/red, forge:storage_blocks/iron, create:seats, forge:glass_panes/brown, forge:glass_panes/green, carryon:block_blacklist, repurposed_structures:badlands_well_ores, minecraft:prevent_mob_spawning_inside, minecraft:climbable, forge:chests/trapped, repurposed_structures:jungle_fortress_staircase_soils, structure_gel:gel, forge:fence_gates, minecraft:dark_oak_logs, farmersdelight:compost_activators, quark:ladders, minecraft:coral_plants, farmersdelight:tray_heat_sources, forge:glass_panes, minecraft:non_flammable_wood, atmospheric:kousa_logs, forge:sandstone, forge:storage_blocks/copper, forge:glass_panes/colorless, atmospheric:rosewood_logs, alexsmobs:drops_bananas, charm:barrels, create:safe_nbt, upgrade_aquatic:river_logs, minecraft:fences, autumnity:snail_foods, minecraft:saplings, forge:storage_blocks/lapis, forge:ores/copper, minecraft:beds, forge:ores/diamond, minecraft:unstable_bottom_center, minecraft:doors, minecraft:enderman_holdable, minecraft:banners, minecraft:infiniburn_overworld, minecraft:flower_pots, minecraft:wooden_fences, alexsmobs:rattlesnake_spawns, minecraft:wall_post_override, forge:obsidian, forge:enderman_place_on_blacklist, biomesoplenty:mahogany_logs, alexsmobs:kangaroo_spawns, schoolsofmagic:podiums, alexsmobs:seal_digables, forge:glass/white, forge:glass_panes/red, minecraft:signs, biomesoplenty:willow_logs, minecraft:wither_summon_base_blocks, forge:glass/magenta, spiderstpo:non_climbable, forge:ores/coal, minecraft:hoglin_repellents, minecraft:fire, repurposed_structures:forest_well_ores, minecraft:base_stone_nether, minecraft:wall_signs, quark:vertical_slabs, create:fan_transparent, charm:bookcases, carryon:block_whitelist, endergetic:poise_stems, alexsmobs:drops_acacia_blossoms, alexsmobs:warped_toad_spawns, forge:sand/colorless, endergetic:end_plantable, minecraft:trapdoors, alexsmobs:komodo_dragon_spawns, forge:glass/cyan, alexsmobs:crow_fears, atmospheric:yucca_plantable_on, alexsmobs:mantis_shrimp_spawns, quark:crab_spawnable, forge:glass, quark:wooden_vertical_slabs, minecraft:soul_speed_blocks, forge:storage_blocks/charcoal, repurposed_structures:snow_well_ores, alexsmobs:lobster_spawns, minecraft:leaves, buzzier_bees:flower_blacklist, minecraft:walls, minecraft:coral_blocks, repurposed_structures:jungle_fortress_staircase_plants, forge:storage_blocks/brass, forge:glass/green, forge:glass_panes/gray, minecraft:wither_immune, repurposed_structures:nether_well_ores, atmospheric:yucca_logs, minecraft:acacia_logs, atmospheric:aspen_logs, forge:stained_glass_panes, environmental:cherry_logs, minecraft:underwater_bonemeals, atmospheric:passion_vine_growable_on, forge:storage_blocks/zinc, forge:sand/red, minecraft:impermeable, alexsmobs:emu_spawns, minecraft:sand, forge:end_stones, autumnity:slippery_snail_slime_blocks, forge:glass/brown, biomesoplenty:fir_logs, alexsmobs:mungus_spawns, create:sails, minecraft:logs_that_burn, forge:wg_stone, alexsmobs:crimson_mosquito_spawns, forge:fences/wooden, forge:glass/gray, endergetic:ender_fire_base_blocks, minecraft:campfires, forge:storage_blocks, minecraft:infiniburn_nether, forge:glass_panes/orange, forge:glass/light_gray, atmospheric:grimwood_logs, forge:ores/quartz, minecraft:wooden_slabs, alexsmobs:platypus_spawns, doubleslabs:plank_slabs, forge:glass/blue, minecraft:small_flowers, forge:supports_conduit, minecraft:wooden_trapdoors, create:valve_handles, forge:storage_blocks/coal, forge:glass_panes/black, forge:glass/light_blue, farmersdelight:wild_crops, forge:storage_blocks/redstone, neapolitan:creeper_repellents, charm:chests/trapped, alexsmobs:grizzly_beehive, forge:glass_panes/blue, minecraft:stairs, quark:underground_biome_replaceable, minecraft:logs, forge:stone, alexsmobs:crocodile_spawns, minecraft:valid_spawn, minecraft:mushroom_grow_block, environmental:willow_logs, quark:wraith_spawnable, minecraft:wooden_doors, minecraft:standing_signs, autumnity:maple_logs, minecraft:infiniburn_end, forge:glass_panes/yellow, forge:glass/purple, quark:slime_blocks, minecraft:crimson_stems, alexsmobs:soul_vulture_spawns, abundance:jacaranda_logs, biomesoplenty:cherry_logs, quark:vertical_slab, minecraft:wart_blocks, quark:hedges, charm:immovable_by_pistons, alexsmobs:gorilla_breakables, charm:chests/normal, minecraft:beacon_base_blocks, alexsmobs:seal_spawns, alexsmobs:orca_breakables, repurposed_structures:mossy_well_ores, minecraft:shulker_boxes, repurposed_structures:nether_stronghold_bookshelves, alexsmobs:mungus_replace_mushroom, alexsmobs:endergrade_spawns, minecraft:anvil, minecraft:birch_logs, forge:sand, minecraft:wall_corals, create:fan_heaters, forge:glass_panes/purple, forge:glass/yellow, quark:pike_trophies, alexsmobs:elephant_foodblocks, minecraft:oak_logs, forge:ores/gold, minecraft:piglin_repellents, forge:ores/lapis, biomesoplenty:palm_logs, forge:glass/black, charm:chests/wooden, biomesoplenty:dead_logs, minecraft:portals, alexsmobs:mungus_replace_nether, forge:dirt, minecraft:bamboo_plantable_on, forge:fences/nether_brick, forge:glass/lime, forge:chests/wooden, forge:ores/iron, quark:lead_connectable, minecraft:pressure_plates, create:windowable, forge:storage_blocks/biotite, minecraft:jungle_logs, bayou_blues:cypress_logs, forge:chests/ender, minecraft:wooden_stairs, minecraft:spruce_logs, minecraft:carpets, minecraft:base_stone_overworld, minecraft:wooden_buttons, quark:crystal, biomesoplenty:umbran_logs, alexsmobs:crow_foodblocks, charm:nether_portal_frames, forge:fence_gates/wooden, minecraft:stone_bricks, forge:storage_blocks/quartz, forge:glass/orange, environmental:wisteria_logs, forge:glass_panes/lime, create:windmill_sails, endergetic:poise_plantable, endergetic:end_crystal_placeable, minecraft:slabs, minecraft:guarded_by_piglins, forge:ores/emerald, charm:bookshelves, minecraft:corals, minecraft:buttons, minecraft:flowers, quark:foxhound_spawnable, minecraft:planks, forge:cobblestone, minecraft:rails, upgrade_aquatic:driftwood_logs, brazier:brazier_base_blocks, forge:crab_can_dig, alexsmobs:soul_vulture_perches, minecraft:strider_warm_blocks, forge:storage_blocks/gold, atmospheric:morado_logs, minecraft:fence_gates, endergetic:chorus_plantable, forge:ores, minecraft:bee_growables, minecraft:wooden_pressure_plates, create:brittle, abundance:redbud_logs, minecraft:tall_flowers, biomesoplenty:redwood_logs, biomesoplenty:jacaranda_logs, forge:fences, forge:bookshelves, minecraft:stone_pressure_plates, charm:lanterns, forge:storage_blocks/diamond, minecraft:nylium, alexsmobs:warped_mosco_breakables, minecraft:gold_ores, forge:glass_panes/pink, forge:netherrack]
+[23:05:47] [Render thread/INFO]: Starting JEI...
+[23:05:48] [Render thread/ERROR]: Recipe has no inputs. Antique Atlas antiqueatlas:atlas_combine class hunternif.mc.impl.atlas.item.RecipeAtlasCombining
+Outputs:
+net.minecraft.item.ItemStack: [[1 antique_atlas antiqueatlas:antique_atlas]]
+Inputs:
+net.minecraft.item.ItemStack: []
+[23:05:48] [Render thread/ERROR]: Recipe has no output. Antique Atlas antiqueatlas:atlas_clone class hunternif.mc.impl.atlas.item.RecipeAtlasCloning
+Outputs:
+net.minecraft.item.ItemStack: [[1 air minecraft:air]]
+Inputs:
+net.minecraft.item.ItemStack: []
+[23:05:49] [Render thread/INFO]: Added recipe manager plugin: class dan200.computercraft.shared.integration.jei.RecipeResolver
+[23:05:49] [Render thread/INFO]: Building ingredient list...
+[23:05:49] [Render thread/INFO]: Building ingredient list took 9.764 ms
+[23:05:49] [Render thread/INFO]: Building ingredient filter...
+[23:05:49] [Render thread/INFO]: Building ingredient filter took 818.2 ms
+[23:05:49] [Render thread/INFO]: Building bookmarks...
+[23:05:49] [Render thread/INFO]: Building bookmarks took 2.019 ms
+[23:05:49] [Render thread/INFO]: Building recipe registry...
+[23:05:50] [Render thread/ERROR]: Found a broken recipe: Charm charm:woodcutters/quark/oak_ladder_from_oak_planks class svenhjol.charm.recipe.WoodcuttingRecipe
+Outputs:
+net.minecraft.item.ItemStack: [[1 air minecraft:air]]
+Inputs:
+net.minecraft.item.ItemStack: [[1 oak_planks minecraft:oak_planks]]
+
+java.lang.IllegalArgumentException: ItemStack value must not be empty. 1 air minecraft:air
+	at mezz.jei.util.ErrorUtil.checkNotEmpty(ErrorUtil.java:184) ~[?:7.6.1.75]
+	at mezz.jei.plugins.vanilla.ingredients.item.ItemStackHelper.getUniqueId(ItemStackHelper.java:87) ~[?:7.6.1.75]
+	at mezz.jei.plugins.vanilla.ingredients.item.ItemStackHelper.getUniqueId(ItemStackHelper.java:28) ~[?:7.6.1.75]
+	at mezz.jei.recipes.RecipeMap.addRecipe(RecipeMap.java:94) ~[?:7.6.1.75]
+	at mezz.jei.recipes.RecipeMap.addRecipe(RecipeMap.java:75) ~[?:7.6.1.75]
+	at mezz.jei.recipes.RecipeManager.addRecipe(RecipeManager.java:144) [?:7.6.1.75]
+	at mezz.jei.recipes.RecipeManager.addRecipeTyped(RecipeManager.java:105) [?:7.6.1.75]
+	at mezz.jei.recipes.RecipeManager.addRecipes(RecipeManager.java:98) [?:7.6.1.75]
+	at mezz.jei.recipes.RecipeManager.<init>(RecipeManager.java:90) [?:7.6.1.75]
+	at mezz.jei.load.PluginLoader.getRecipeManager(PluginLoader.java:142) [?:7.6.1.75]
+	at mezz.jei.startup.JeiStarter.start(JeiStarter.java:73) [?:7.6.1.75]
+	at mezz.jei.startup.ClientLifecycleHandler.startJEI(ClientLifecycleHandler.java:141) [?:7.6.1.75]
+	at mezz.jei.startup.ClientLifecycleHandler.setupJEI(ClientLifecycleHandler.java:134) [?:7.6.1.75]
+	at mezz.jei.startup.ClientLifecycleHandler.lambda$new$2(ClientLifecycleHandler.java:100) [?:7.6.1.75]
+	at mezz.jei.startup.ClientLifecycleHandler$$Lambda$14342/1232874275.accept(Unknown Source) [?:7.6.1.75]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus$$Lambda$2908/368384503.invoke(Unknown Source) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus$$Lambda$2545/1406964648.invoke(Unknown Source) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.fml.network.FMLPlayMessages$SyncCustomTagTypes.lambda$handle$2(FMLPlayMessages.java:426) [?:?]
+	at net.minecraftforge.fml.network.FMLPlayMessages$SyncCustomTagTypes$$Lambda$15763/235829708.run(Unknown Source) [?:?]
+	at net.minecraftforge.fml.network.NetworkEvent$Context.enqueueWork(NetworkEvent.java:215) [?:?]
+	at net.minecraftforge.fml.network.FMLPlayMessages$SyncCustomTagTypes.handle(FMLPlayMessages.java:405) [?:?]
+	at net.minecraftforge.fml.network.NetworkInitialization$$Lambda$2965/408012754.accept(Unknown Source) [?:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.lambda$tryDecode$3(IndexedMessageCodec.java:128) [?:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec$$Lambda$14865/1063948894.accept(Unknown Source) [?:?]
+	at java.util.Optional.ifPresent(Optional.java:159) [?:1.8.0_51]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.tryDecode(IndexedMessageCodec.java:128) [?:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.consume(IndexedMessageCodec.java:162) [?:?]
+	at net.minecraftforge.fml.network.simple.SimpleChannel.networkEventListener(SimpleChannel.java:80) [?:?]
+	at net.minecraftforge.fml.network.simple.SimpleChannel$$Lambda$2906/1928589644.accept(Unknown Source) [?:?]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus$$Lambda$2908/368384503.invoke(Unknown Source) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus$$Lambda$2545/1406964648.invoke(Unknown Source) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.fml.network.NetworkInstance.dispatch(NetworkInstance.java:86) [?:?]
+	at net.minecraftforge.fml.network.NetworkHooks.lambda$onCustomPayload$1(NetworkHooks.java:90) [?:?]
+	at net.minecraftforge.fml.network.NetworkHooks$$Lambda$14853/1506246638.apply(Unknown Source) [?:?]
+	at java.util.Optional.map(Optional.java:215) [?:1.8.0_51]
+	at net.minecraftforge.fml.network.NetworkHooks.onCustomPayload(NetworkHooks.java:90) [?:?]
+	at net.minecraft.client.network.play.ClientPlayNetHandler.func_147240_a(ClientPlayNetHandler.java:1904) [?:?]
+	at net.minecraft.network.play.server.SCustomPayloadPlayPacket.func_148833_a(SCustomPayloadPlayPacket.java:59) [?:?]
+	at net.minecraft.network.play.server.SCustomPayloadPlayPacket.func_148833_a(SCustomPayloadPlayPacket.java:11) [?:?]
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21) [?:?]
+	at net.minecraft.network.PacketThreadUtil$$Lambda$15463/804495382.run(Unknown Source) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103) [?:?]
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:947) [?:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607) [?:?]
+	at net.minecraft.client.main.Main.main(Main.java:184) [?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) [forge-1.16.5-36.1.0.jar:36.1]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$446/1893088773.call(Unknown Source) [forge-1.16.5-36.1.0.jar:36.1]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?]
+[23:05:50] [Render thread/INFO]: Building recipe registry took 316.5 ms
+[23:05:50] [Render thread/INFO]: Building runtime...
+[23:05:50] [Render thread/INFO]: Building runtime took 220.2 ms
+[23:05:50] [Render thread/INFO]: Ingredients are being added at runtime: 24 net.minecraft.item.ItemStack
+[23:05:50] [Render thread/ERROR]: Caught an error from mod plugin: class com.possible_triangle.brazier.forge.compat.jei.JeiPlugin brazier:plugin
+java.lang.IllegalArgumentException: ingredients must not be empty.
+	at mezz.jei.util.ErrorUtil.checkNotEmpty(ErrorUtil.java:214) ~[?:7.6.1.75]
+	at mezz.jei.ingredients.IngredientManager.removeIngredientsAtRuntime(IngredientManager.java:223) ~[?:7.6.1.75]
+	at mezz.jei.ingredients.IngredientManager.removeIngredientsAtRuntime(IngredientManager.java:191) ~[?:7.6.1.75]
+	at com.possible_triangle.brazier.forge.compat.jei.JeiPlugin.onRuntimeAvailable(JeiPlugin.java:56) ~[?:?]
+	at mezz.jei.startup.JeiStarter.lambda$start$1(JeiStarter.java:96) ~[?:7.6.1.75]
+	at mezz.jei.startup.JeiStarter$$Lambda$15908/641329637.accept(Unknown Source) ~[?:?]
+	at mezz.jei.load.PluginCaller.callOnPlugins(PluginCaller.java:26) [?:7.6.1.75]
+	at mezz.jei.startup.JeiStarter.start(JeiStarter.java:96) [?:7.6.1.75]
+	at mezz.jei.startup.ClientLifecycleHandler.startJEI(ClientLifecycleHandler.java:141) [?:7.6.1.75]
+	at mezz.jei.startup.ClientLifecycleHandler.setupJEI(ClientLifecycleHandler.java:134) [?:7.6.1.75]
+	at mezz.jei.startup.ClientLifecycleHandler.lambda$new$2(ClientLifecycleHandler.java:100) [?:7.6.1.75]
+	at mezz.jei.startup.ClientLifecycleHandler$$Lambda$14342/1232874275.accept(Unknown Source) [?:7.6.1.75]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus$$Lambda$2908/368384503.invoke(Unknown Source) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus$$Lambda$2545/1406964648.invoke(Unknown Source) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.fml.network.FMLPlayMessages$SyncCustomTagTypes.lambda$handle$2(FMLPlayMessages.java:426) [?:?]
+	at net.minecraftforge.fml.network.FMLPlayMessages$SyncCustomTagTypes$$Lambda$15763/235829708.run(Unknown Source) [?:?]
+	at net.minecraftforge.fml.network.NetworkEvent$Context.enqueueWork(NetworkEvent.java:215) [?:?]
+	at net.minecraftforge.fml.network.FMLPlayMessages$SyncCustomTagTypes.handle(FMLPlayMessages.java:405) [?:?]
+	at net.minecraftforge.fml.network.NetworkInitialization$$Lambda$2965/408012754.accept(Unknown Source) [?:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.lambda$tryDecode$3(IndexedMessageCodec.java:128) [?:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec$$Lambda$14865/1063948894.accept(Unknown Source) [?:?]
+	at java.util.Optional.ifPresent(Optional.java:159) [?:1.8.0_51]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.tryDecode(IndexedMessageCodec.java:128) [?:?]
+	at net.minecraftforge.fml.network.simple.IndexedMessageCodec.consume(IndexedMessageCodec.java:162) [?:?]
+	at net.minecraftforge.fml.network.simple.SimpleChannel.networkEventListener(SimpleChannel.java:80) [?:?]
+	at net.minecraftforge.fml.network.simple.SimpleChannel$$Lambda$2906/1928589644.accept(Unknown Source) [?:?]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus$$Lambda$2908/368384503.invoke(Unknown Source) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus$$Lambda$2545/1406964648.invoke(Unknown Source) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) [eventbus-4.0.0.jar:?]
+	at net.minecraftforge.fml.network.NetworkInstance.dispatch(NetworkInstance.java:86) [?:?]
+	at net.minecraftforge.fml.network.NetworkHooks.lambda$onCustomPayload$1(NetworkHooks.java:90) [?:?]
+	at net.minecraftforge.fml.network.NetworkHooks$$Lambda$14853/1506246638.apply(Unknown Source) [?:?]
+	at java.util.Optional.map(Optional.java:215) [?:1.8.0_51]
+	at net.minecraftforge.fml.network.NetworkHooks.onCustomPayload(NetworkHooks.java:90) [?:?]
+	at net.minecraft.client.network.play.ClientPlayNetHandler.func_147240_a(ClientPlayNetHandler.java:1904) [?:?]
+	at net.minecraft.network.play.server.SCustomPayloadPlayPacket.func_148833_a(SCustomPayloadPlayPacket.java:59) [?:?]
+	at net.minecraft.network.play.server.SCustomPayloadPlayPacket.func_148833_a(SCustomPayloadPlayPacket.java:11) [?:?]
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21) [?:?]
+	at net.minecraft.network.PacketThreadUtil$$Lambda$15463/804495382.run(Unknown Source) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103) [?:?]
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:947) [?:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607) [?:?]
+	at net.minecraft.client.main.Main.main(Main.java:184) [?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) [forge-1.16.5-36.1.0.jar:36.1]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$446/1893088773.call(Unknown Source) [forge-1.16.5-36.1.0.jar:36.1]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?]
+[23:05:50] [Render thread/INFO]: Starting JEI took 2.854 s
+[23:05:50] [Render thread/INFO]: [tschipp.carryon.common.handler.ListHandler:initConfigLists:282]: [create:non_movable, minecraft:soul_fire_base_blocks, neapolitan:vanilla_plantable_on, forge:glass_panes/magenta, neapolitan:unaffected_by_mint, forge:ores/biotite, farmersdelight:unaffected_by_rich_soil, quark:planks_vertical_slab, quark:stools, forge:storage_blocks/netherite, forge:glass_panes/white, biomesoplenty:hellbark_logs, forge:gravel, forge:glass_panes/cyan, biomesoplenty:magic_logs, forge:glass_panes/light_gray, minecraft:wool, forge:glass/colorless, charm:crates, alexsmobs:roadrunner_spawns, forge:glass_panes/light_blue, minecraft:beehives, minecraft:ice, quark:candles, forge:ores/zinc, forge:ores/netherite_scrap, minecraft:dragon_immune, minecraft:crops, alexsmobs:alligator_snapping_turtle_spawns, farmersdelight:heat_sources, quark:quilted_wools, forge:stained_glass, forge:glass/pink, forge:chests, forge:storage_blocks/emerald, forge:ores/redstone, minecraft:warped_stems, forge:glass/red, forge:storage_blocks/iron, create:seats, forge:glass_panes/brown, forge:glass_panes/green, carryon:block_blacklist, repurposed_structures:badlands_well_ores, minecraft:prevent_mob_spawning_inside, minecraft:climbable, forge:chests/trapped, repurposed_structures:jungle_fortress_staircase_soils, structure_gel:gel, forge:fence_gates, minecraft:dark_oak_logs, farmersdelight:compost_activators, quark:ladders, minecraft:coral_plants, farmersdelight:tray_heat_sources, forge:glass_panes, minecraft:non_flammable_wood, atmospheric:kousa_logs, forge:sandstone, forge:storage_blocks/copper, forge:glass_panes/colorless, atmospheric:rosewood_logs, alexsmobs:drops_bananas, charm:barrels, create:safe_nbt, upgrade_aquatic:river_logs, minecraft:fences, autumnity:snail_foods, minecraft:saplings, forge:storage_blocks/lapis, forge:ores/copper, minecraft:beds, forge:ores/diamond, minecraft:unstable_bottom_center, minecraft:doors, minecraft:enderman_holdable, minecraft:banners, minecraft:infiniburn_overworld, minecraft:flower_pots, minecraft:wooden_fences, alexsmobs:rattlesnake_spawns, minecraft:wall_post_override, forge:obsidian, forge:enderman_place_on_blacklist, biomesoplenty:mahogany_logs, alexsmobs:kangaroo_spawns, schoolsofmagic:podiums, alexsmobs:seal_digables, forge:glass/white, forge:glass_panes/red, minecraft:signs, biomesoplenty:willow_logs, minecraft:wither_summon_base_blocks, forge:glass/magenta, spiderstpo:non_climbable, forge:ores/coal, minecraft:hoglin_repellents, minecraft:fire, repurposed_structures:forest_well_ores, minecraft:base_stone_nether, minecraft:wall_signs, quark:vertical_slabs, create:fan_transparent, charm:bookcases, carryon:block_whitelist, endergetic:poise_stems, alexsmobs:drops_acacia_blossoms, alexsmobs:warped_toad_spawns, forge:sand/colorless, endergetic:end_plantable, minecraft:trapdoors, alexsmobs:komodo_dragon_spawns, forge:glass/cyan, alexsmobs:crow_fears, atmospheric:yucca_plantable_on, alexsmobs:mantis_shrimp_spawns, quark:crab_spawnable, forge:glass, quark:wooden_vertical_slabs, minecraft:soul_speed_blocks, forge:storage_blocks/charcoal, repurposed_structures:snow_well_ores, alexsmobs:lobster_spawns, minecraft:leaves, buzzier_bees:flower_blacklist, minecraft:walls, minecraft:coral_blocks, repurposed_structures:jungle_fortress_staircase_plants, forge:storage_blocks/brass, forge:glass/green, forge:glass_panes/gray, minecraft:wither_immune, repurposed_structures:nether_well_ores, atmospheric:yucca_logs, minecraft:acacia_logs, atmospheric:aspen_logs, forge:stained_glass_panes, environmental:cherry_logs, minecraft:underwater_bonemeals, atmospheric:passion_vine_growable_on, forge:storage_blocks/zinc, forge:sand/red, minecraft:impermeable, alexsmobs:emu_spawns, minecraft:sand, forge:end_stones, autumnity:slippery_snail_slime_blocks, forge:glass/brown, biomesoplenty:fir_logs, alexsmobs:mungus_spawns, create:sails, minecraft:logs_that_burn, forge:wg_stone, alexsmobs:crimson_mosquito_spawns, forge:fences/wooden, forge:glass/gray, endergetic:ender_fire_base_blocks, minecraft:campfires, forge:storage_blocks, minecraft:infiniburn_nether, forge:glass_panes/orange, forge:glass/light_gray, atmospheric:grimwood_logs, forge:ores/quartz, minecraft:wooden_slabs, alexsmobs:platypus_spawns, doubleslabs:plank_slabs, forge:glass/blue, minecraft:small_flowers, forge:supports_conduit, minecraft:wooden_trapdoors, create:valve_handles, forge:storage_blocks/coal, forge:glass_panes/black, forge:glass/light_blue, farmersdelight:wild_crops, forge:storage_blocks/redstone, neapolitan:creeper_repellents, charm:chests/trapped, alexsmobs:grizzly_beehive, forge:glass_panes/blue, minecraft:stairs, quark:underground_biome_replaceable, minecraft:logs, forge:stone, alexsmobs:crocodile_spawns, minecraft:valid_spawn, minecraft:mushroom_grow_block, environmental:willow_logs, quark:wraith_spawnable, minecraft:wooden_doors, minecraft:standing_signs, autumnity:maple_logs, minecraft:infiniburn_end, forge:glass_panes/yellow, forge:glass/purple, quark:slime_blocks, minecraft:crimson_stems, alexsmobs:soul_vulture_spawns, abundance:jacaranda_logs, biomesoplenty:cherry_logs, quark:vertical_slab, minecraft:wart_blocks, quark:hedges, charm:immovable_by_pistons, alexsmobs:gorilla_breakables, charm:chests/normal, minecraft:beacon_base_blocks, alexsmobs:seal_spawns, alexsmobs:orca_breakables, repurposed_structures:mossy_well_ores, minecraft:shulker_boxes, repurposed_structures:nether_stronghold_bookshelves, alexsmobs:mungus_replace_mushroom, alexsmobs:endergrade_spawns, minecraft:anvil, minecraft:birch_logs, forge:sand, minecraft:wall_corals, create:fan_heaters, forge:glass_panes/purple, forge:glass/yellow, quark:pike_trophies, alexsmobs:elephant_foodblocks, minecraft:oak_logs, forge:ores/gold, minecraft:piglin_repellents, forge:ores/lapis, biomesoplenty:palm_logs, forge:glass/black, charm:chests/wooden, biomesoplenty:dead_logs, minecraft:portals, alexsmobs:mungus_replace_nether, forge:dirt, minecraft:bamboo_plantable_on, forge:fences/nether_brick, forge:glass/lime, forge:chests/wooden, forge:ores/iron, quark:lead_connectable, minecraft:pressure_plates, create:windowable, forge:storage_blocks/biotite, minecraft:jungle_logs, bayou_blues:cypress_logs, forge:chests/ender, minecraft:wooden_stairs, minecraft:spruce_logs, minecraft:carpets, minecraft:base_stone_overworld, minecraft:wooden_buttons, quark:crystal, biomesoplenty:umbran_logs, alexsmobs:crow_foodblocks, charm:nether_portal_frames, forge:fence_gates/wooden, minecraft:stone_bricks, forge:storage_blocks/quartz, forge:glass/orange, environmental:wisteria_logs, forge:glass_panes/lime, create:windmill_sails, endergetic:poise_plantable, endergetic:end_crystal_placeable, minecraft:slabs, minecraft:guarded_by_piglins, forge:ores/emerald, charm:bookshelves, minecraft:corals, minecraft:buttons, minecraft:flowers, quark:foxhound_spawnable, minecraft:planks, forge:cobblestone, minecraft:rails, upgrade_aquatic:driftwood_logs, brazier:brazier_base_blocks, forge:crab_can_dig, alexsmobs:soul_vulture_perches, minecraft:strider_warm_blocks, forge:storage_blocks/gold, atmospheric:morado_logs, minecraft:fence_gates, endergetic:chorus_plantable, forge:ores, minecraft:bee_growables, minecraft:wooden_pressure_plates, create:brittle, abundance:redbud_logs, minecraft:tall_flowers, biomesoplenty:redwood_logs, biomesoplenty:jacaranda_logs, forge:fences, forge:bookshelves, minecraft:stone_pressure_plates, charm:lanterns, forge:storage_blocks/diamond, minecraft:nylium, alexsmobs:warped_mosco_breakables, minecraft:gold_ores, forge:glass_panes/pink, forge:netherrack]
+[23:05:50] [Render thread/INFO]: Received config from the server: {"minecraft:hide_infestations":true}
+[23:05:50] [Render thread/INFO]: [com.paleimitations.schoolsofmagic.common.network.UpdateMagicDataPacket:lambda$handle$0:38]: logged in magic handled
+[23:05:51] [Render thread/INFO]: [CHAT] Thanks for installing Disable Sleeping! This was made by iheartstriders!
+[23:05:51] [Render thread/INFO]: [CHAT] To disable Sleeping, Use the 'disablesleeping' function!
+[23:05:51] [Render thread/INFO]: [CHAT] To enable Sleeping, Use the 'enablesleeping' function!
+[23:05:51] [Render thread/INFO]: Loaded 1910 advancements
+[23:06:13] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.cod.ambient
+[23:09:11] [Render thread/INFO]: Stopping!
